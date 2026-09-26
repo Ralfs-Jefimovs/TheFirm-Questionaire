@@ -1,0 +1,413 @@
+{
+  "categories": [
+    { "id": "presentation", "name": "History of the Firm (Presentation)" },
+    { "id": "company", "name": "The Company (Micklethwait & Wooldridge)" },
+    { "id": "money", "name": "The Ascent of Money (Niall Ferguson)" }
+  ],
+  "questions": [
+    {
+      "id": "p1",
+      "category": "presentation",
+      "question": "In the presentation's timeline, which period is labeled as covering 'The First Companies' (Medici Bank, Fugger Family)?",
+      "options": ["13th-16th Century", "17th Century", "18th Century", "19th Century"],
+      "correctIndex": 0,
+      "explanation": "The 13th-16th Century column is headed 'The First Companies' and lists the Medici Bank and Fugger Family as key firms."
+    },
+    {
+      "id": "p2",
+      "category": "presentation",
+      "question": "Which two firms are highlighted as the key examples of the 17th century 'Joint-Stock Company' era?",
+      "options": [
+        "East India Company and Dutch East India Company",
+        "Standard Oil and Carnegie Steel",
+        "Ford Motor Company and General Motors",
+        "IBM and Microsoft"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 17th century row lists the English East India Company and the Dutch East India Company as the key firms of the joint-stock era."
+    },
+    {
+      "id": "p3",
+      "category": "presentation",
+      "question": "According to the 'Industrial Revolution' slide, which of the following is listed as a major driver of the Industrial Revolution?",
+      "options": [
+        "High agricultural productivity",
+        "Global internet access",
+        "Deregulated currency markets",
+        "Consumer financing plans"
+      ],
+      "correctIndex": 0,
+      "explanation": "High agricultural productivity, availability of coal and iron, political stability, and financial capital are listed as major drivers."
+    },
+    {
+      "id": "p4",
+      "category": "presentation",
+      "question": "Richard Arkwright's mechanical innovation, credited with launching the factory system, was the:",
+      "options": ["Water Frame", "Spinning Jenny", "Steam Locomotive", "Separate Condenser"],
+      "correctIndex": 0,
+      "explanation": "The slide credits Arkwright's Water Frame with automating spinning and leading to the factory system."
+    },
+    {
+      "id": "p5",
+      "category": "presentation",
+      "question": "James Watt's firm, Boulton & Watt, is credited with which innovation to the steam engine?",
+      "options": ["The separate condenser", "The water frame", "The carding machine", "The cotton gin"],
+      "correctIndex": 0,
+      "explanation": "The separate condenser greatly improved the efficiency and cost-effectiveness of steam engines."
+    },
+    {
+      "id": "p6",
+      "category": "presentation",
+      "question": "Which of these is NOT one of the 'Robber Barons' named in the presentation?",
+      "options": ["Bill Gates", "Andrew Carnegie", "John D. Rockefeller", "Cornelius Vanderbilt"],
+      "correctIndex": 0,
+      "explanation": "The Robber Barons slide lists Carnegie, Rockefeller, Vanderbilt, J.P. Morgan, and Henry Ford - not Bill Gates, a 20th/21st-century figure."
+    },
+    {
+      "id": "p7",
+      "category": "presentation",
+      "question": "J.P. Morgan's primary industry, per the presentation, was:",
+      "options": ["Banking/Finance", "Steel", "Oil", "Railroads"],
+      "correctIndex": 0,
+      "explanation": "J.P. Morgan & Co. is listed under Banking/Finance, providing financial services."
+    },
+    {
+      "id": "p8",
+      "category": "presentation",
+      "question": "The Factory Act of 1833 primarily addressed which issue?",
+      "options": [
+        "Restricting child labor and setting a minimum working age",
+        "Legalizing trade unions",
+        "Breaking up monopolies",
+        "Expanding the electorate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Factory Act of 1833 restricted child labor, set a minimum working age, and limited children's working hours."
+    },
+    {
+      "id": "p9",
+      "category": "presentation",
+      "question": "In what year did the U.S. Supreme Court order Standard Oil broken up, and into how many companies?",
+      "options": ["1911, into 34 companies", "1890, into 10 companies", "1904, into 2 companies", "1920, into 50 companies"],
+      "correctIndex": 0,
+      "explanation": "The Antitrust Enforcement slide shows the Supreme Court ordered the breakup of Standard Oil into 34 companies in 1911."
+    },
+    {
+      "id": "p10",
+      "category": "presentation",
+      "question": "The Sherman Antitrust Act, which made it illegal to form monopolies or restrain trade, was passed in the United States in:",
+      "options": ["1890", "1904", "1914", "1920"],
+      "correctIndex": 0,
+      "explanation": "The Antitrust Enforcement slide dates the Sherman Antitrust Act to 1890."
+    },
+    {
+      "id": "p11",
+      "category": "presentation",
+      "question": "Alfred Sloan's most significant structural change at General Motors was introducing a:",
+      "options": [
+        "Decentralized management structure with semi-autonomous divisions",
+        "Fully centralized command structure",
+        "Worker-owned cooperative model",
+        "Single-brand product line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sloan divided GM into semi-autonomous divisions (Chevrolet, Pontiac, Oldsmobile, Buick, Cadillac), fostering internal competition while keeping overall corporate control."
+    },
+    {
+      "id": "p12",
+      "category": "presentation",
+      "question": "What was the name of General Motors' consumer financing arm, introduced under Sloan?",
+      "options": ["GMAC (General Motors Acceptance Corporation)", "GM Capital", "Motor Credit Union", "AutoFinance Inc."],
+      "correctIndex": 0,
+      "explanation": "GMAC made car ownership more accessible by offering consumer financing, boosting sales significantly."
+    },
+    {
+      "id": "p13",
+      "category": "presentation",
+      "question": "The Toyota Production System (TPS) is best known for introducing which manufacturing philosophy?",
+      "options": [
+        "Lean manufacturing and just-in-time production",
+        "Mass assembly-line production",
+        "Vertical integration of raw materials",
+        "Annual model changes"
+      ],
+      "correctIndex": 0,
+      "explanation": "TPS introduced lean manufacturing and just-in-time production, reducing waste and improving quality industry-wide."
+    },
+    {
+      "id": "p14",
+      "category": "presentation",
+      "question": "IBM is credited in the presentation with inventing which of the following foundational technologies?",
+      "options": [
+        "The ATM, DRAM, and the hard disk drive",
+        "The World Wide Web",
+        "The transistor radio",
+        "The smartphone"
+      ],
+      "correctIndex": 0,
+      "explanation": "The slide credits IBM with the ATM, DRAM, floppy disk, hard disk drive, and relational database, among other innovations."
+    },
+    {
+      "id": "p15",
+      "category": "presentation",
+      "question": "Microsoft's cloud computing platform, mentioned as transforming IT infrastructure, is called:",
+      "options": ["Azure", "AWS", "Google Cloud", "iCloud"],
+      "correctIndex": 0,
+      "explanation": "Azure is named as Microsoft's leading cloud computing platform in the '2H of the 20th Century' slide."
+    },
+    {
+      "id": "p16",
+      "category": "presentation",
+      "question": "The homework slide asks students to choose the most impactful individual studied from the History of the Firm, selecting that person from which two sources?",
+      "options": [
+        "Ascent of Money or The Company",
+        "Wikipedia or a news article",
+        "A random online quiz",
+        "The firm's own annual report"
+      ],
+      "correctIndex": 0,
+      "explanation": "Students are asked to choose someone identified in either 'Ascent of Money' or 'The Company' and build a deductive argument for their impact."
+    },
+    {
+      "id": "c1",
+      "category": "company",
+      "question": "In 'The Company: A Short History of a Revolutionary Idea,' Micklethwait and Wooldridge define the modern company chiefly by which combination of features?",
+      "options": [
+        "It is a distinct legal person, has tradable shares, and offers limited liability to investors",
+        "It must be owned entirely by a single founder",
+        "It cannot own property in its own name",
+        "It is always state-owned"
+      ],
+      "correctIndex": 0,
+      "explanation": "The authors define the company as a limited-liability, joint-stock legal entity: an artificial person with tradable shares and limited investor liability."
+    },
+    {
+      "id": "c2",
+      "category": "company",
+      "question": "The Dutch East India Company (VOC) is widely credited as a landmark in corporate history chiefly because it:",
+      "options": [
+        "Issued shares that were tradable on the Amsterdam exchange, an early form of a public company",
+        "Was the first company to pay a dividend in gold",
+        "Was the first company to go bankrupt",
+        "Invented the concept of the corporate logo"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 1602, the VOC issued shares tradable on the Amsterdam Stock Exchange, an early milestone toward the modern publicly traded corporation."
+    },
+    {
+      "id": "c3",
+      "category": "company",
+      "question": "The book highlights Adam Smith as a notable early critic of joint-stock companies. What was his core objection?",
+      "options": [
+        "The separation of ownership from management created weak incentives for hired managers ('directors of other people's money')",
+        "He believed companies should pay no taxes at all",
+        "He thought companies grew too slowly",
+        "He objected to companies having any employees"
+      ],
+      "correctIndex": 0,
+      "explanation": "Smith worried that managers entrusted with others' capital would not watch over it with the same vigilance as owners of their own money - the classic agency problem."
+    },
+    {
+      "id": "c4",
+      "category": "company",
+      "question": "According to the book, widespread limited liability for shareholders in Britain was firmly established through legislation passed in which decade?",
+      "options": ["The 1850s", "The 1700s", "The 1930s", "The 2000s"],
+      "correctIndex": 0,
+      "explanation": "The Limited Liability Act of 1855 and the Joint Stock Companies Act of 1856 made limited liability the default position for British companies."
+    },
+    {
+      "id": "c5",
+      "category": "company",
+      "question": "The South Sea Bubble of 1720, discussed in the book as an early cautionary tale, involved:",
+      "options": [
+        "Speculative mania driving a company's share price far above any realistic value before it collapsed",
+        "The first hostile corporate takeover",
+        "A government nationalizing all private companies",
+        "The invention of the stock ticker"
+      ],
+      "correctIndex": 0,
+      "explanation": "The South Sea Company's stock price rose on speculation and government-backed promises, then crashed dramatically, becoming a classic example of financial mania."
+    },
+    {
+      "id": "c6",
+      "category": "company",
+      "question": "One of the authors' central arguments is that the company should be understood primarily as:",
+      "options": [
+        "A hugely influential institutional 'idea' that reshaped how humans organize economic activity",
+        "A purely modern invention with no historical roots before the 1900s",
+        "An institution that only ever benefited its founders",
+        "A temporary legal fiction destined to disappear"
+      ],
+      "correctIndex": 0,
+      "explanation": "Micklethwait and Wooldridge argue the company is one of the most important organizing ideas in Western history, comparable in influence to major belief systems and states."
+    },
+    {
+      "id": "c7",
+      "category": "company",
+      "question": "The English (British) East India Company received its original royal charter granting a trading monopoly from which monarch?",
+      "options": ["Elizabeth I", "Henry VIII", "Queen Victoria", "George III"],
+      "correctIndex": 0,
+      "explanation": "Elizabeth I granted the East India Company its royal charter in 1600, giving it a monopoly on English trade with the East Indies."
+    },
+    {
+      "id": "c8",
+      "category": "company",
+      "question": "The book discusses corporate scandals such as Enron's collapse in the early 2000s mainly to illustrate:",
+      "options": [
+        "The recurring tension between corporate governance safeguards and management's incentive to mislead shareholders",
+        "That accounting rules had never existed before Enron",
+        "That government regulation of business began only after 2001",
+        "That family-run firms are always more honest than public companies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enron is used as a modern example of the governance failures and agency problems that have challenged the corporate form since its earliest days."
+    },
+    {
+      "id": "c9",
+      "category": "company",
+      "question": "Before the joint-stock company matured, medieval guilds and chartered towns are described in the book as important because they:",
+      "options": [
+        "Established the precedent of a corporate body existing as a continuous legal entity, distinct from its individual members",
+        "Invented the assembly line",
+        "Were the first to issue paper currency",
+        "Operated exclusively across national borders"
+      ],
+      "correctIndex": 0,
+      "explanation": "Guilds and chartered towns pioneered the idea of an 'immortal' collective legal body that persists beyond the lives of its individual members."
+    },
+    {
+      "id": "c10",
+      "category": "company",
+      "question": "Which of these is a key difference the authors draw between a simple partnership and a true joint-stock company?",
+      "options": [
+        "A joint-stock company's shares can be transferred without dissolving the enterprise, unlike a traditional partnership",
+        "A partnership can never have more than one owner",
+        "A joint-stock company cannot hire employees",
+        "There is no difference between the two"
+      ],
+      "correctIndex": 0,
+      "explanation": "Transferable shares allowed joint-stock companies to raise capital and change ownership continuously, unlike partnerships, which traditionally dissolved when a partner left."
+    },
+    {
+      "id": "c11",
+      "category": "company",
+      "question": "According to the book, railways in the 19th century affected the development of the company mainly by:",
+      "options": [
+        "Requiring such enormous amounts of capital that they accelerated the spread of the joint-stock, limited-liability model",
+        "Making joint-stock companies illegal",
+        "Eliminating the need for any outside investors",
+        "Being run entirely by government ministries with no private capital"
+      ],
+      "correctIndex": 0,
+      "explanation": "The huge capital needs of railway building pushed many economies toward wider adoption of joint-stock, limited-liability financing."
+    },
+    {
+      "id": "m1",
+      "category": "money",
+      "question": "In 'The Ascent of Money,' Niall Ferguson traces early banking and credit innovations to which Renaissance-era family?",
+      "options": ["The Medici family of Florence", "The Rothschild family", "The Rockefeller family", "The Fugger family of Bavaria"],
+      "correctIndex": 0,
+      "explanation": "Ferguson highlights the Medici bank of Florence as a foundational example of Renaissance banking and finance."
+    },
+    {
+      "id": "m2",
+      "category": "money",
+      "question": "Ferguson uses the Rothschild family's financing of European governments to illustrate the historical importance of which financial instrument?",
+      "options": ["Government bonds", "Cryptocurrency", "Corporate stock options", "Life insurance annuities"],
+      "correctIndex": 0,
+      "explanation": "The series shows how the Rothschilds built a fortune and influence by financing government debt through bond markets, including during and after the Napoleonic Wars."
+    },
+    {
+      "id": "m3",
+      "category": "money",
+      "question": "The episode on stock market bubbles uses the Mississippi Company and the South Sea Bubble as early examples of what recurring pattern?",
+      "options": [
+        "Speculative mania driving asset prices far beyond fundamentals, followed by a crash",
+        "Governments permanently banning stock trading afterward",
+        "Stock markets that never recovered",
+        "The first use of paper money in history"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ferguson presents these 18th-century bubbles as prototypes of the boom-bust cycles seen repeatedly in financial history."
+    },
+    {
+      "id": "m4",
+      "category": "money",
+      "question": "Ferguson connects the 2007-2008 global financial crisis most directly to problems in which market?",
+      "options": ["U.S. subprime mortgages and mortgage-backed securities", "The gold market", "The market for classic cars", "The global tea trade"],
+      "correctIndex": 0,
+      "explanation": "The crisis is traced to risky subprime mortgage lending and the complex securities built on those loans, which spread losses through the global financial system."
+    },
+    {
+      "id": "m5",
+      "category": "money",
+      "question": "The term Ferguson coins to describe the intertwined economic relationship between China and the United States is:",
+      "options": ["Chimerica", "Eurasia Inc.", "The Pacific Compact", "Sino-Dollar Union"],
+      "correctIndex": 0,
+      "explanation": "'Chimerica' describes how Chinese savings and manufacturing became deeply linked with American consumption and borrowing."
+    },
+    {
+      "id": "m6",
+      "category": "money",
+      "question": "According to the series, the origins of insurance as a financial tool are illustrated through early efforts to protect against which kind of risk?",
+      "options": ["The financial hardship faced by widows and orphans after a breadwinner's death", "The risk of currency counterfeiting", "The risk of stock market bubbles alone", "The risk of railway accidents only"],
+      "correctIndex": 0,
+      "explanation": "Ferguson traces early insurance schemes, such as Scottish ministers' funds, that pooled risk to provide for widows and families after a death."
+    },
+    {
+      "id": "m7",
+      "category": "money",
+      "question": "Ferguson's overarching thesis in 'The Ascent of Money' is best summarized as:",
+      "options": [
+        "Financial innovation has been a critical, if often risky, driver of human and economic progress throughout history",
+        "All financial development has been harmful to society",
+        "Money only became important after the year 2000",
+        "Governments should eliminate all forms of credit and lending"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ferguson argues that the evolution of money, credit, bonds, stocks, insurance, and real estate finance has repeatedly enabled economic growth, despite recurring crises."
+    },
+    {
+      "id": "m8",
+      "category": "money",
+      "question": "The episode on real estate and mortgages argues that housing bubbles are often driven primarily by:",
+      "options": ["Cheap and easily available credit fueling excessive borrowing and leverage", "A permanent shortage of land", "The complete absence of banks", "Strict government caps on home prices"],
+      "correctIndex": 0,
+      "explanation": "Easy credit and leverage are shown as key drivers pushing home prices upward until the bubble eventually bursts."
+    },
+    {
+      "id": "m9",
+      "category": "money",
+      "question": "Ferguson traces the earliest forms of money and credit-based transactions back to which ancient region?",
+      "options": ["Mesopotamia", "The Roman Empire only", "Medieval England", "Colonial North America"],
+      "correctIndex": 0,
+      "explanation": "The series opens with the deep history of money and credit, pointing to ancient Mesopotamia as an early site of lending and debt records."
+    },
+    {
+      "id": "m10",
+      "category": "money",
+      "question": "A key point Ferguson makes about bond markets and government borrowing is that they historically allowed governments to:",
+      "options": [
+        "Finance large-scale wars and long-term projects by borrowing against future tax revenue",
+        "Avoid ever raising taxes again",
+        "Eliminate the need for a central bank",
+        "Guarantee that inflation would never occur"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bond markets let states like Britain fund costly, prolonged wars (such as against Napoleon) by borrowing now and repaying over time."
+    },
+    {
+      "id": "m11",
+      "category": "money",
+      "question": "In discussing risk and insurance, the series suggests that the spread of insurance and pensions over time has generally:",
+      "options": [
+        "Shifted and pooled individual risks across larger groups of people",
+        "Eliminated all financial risk from society",
+        "Been rejected by every modern government",
+        "Only ever applied to shipping cargo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Insurance and pension systems developed as ways to pool and spread risk across many people rather than leaving it with a single individual or family."
+    }
+  ]
+}

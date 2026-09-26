@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>History of the Firm — Practice Quiz</title>
+<style>
+  :root{
+    --bg:#f6f4ef; --card:#ffffff; --ink:#1f2937; --muted:#6b7280;
+    --accent:#8a2b2b; --accent-dark:#6d2020; --good:#1a7f4b; --bad:#b3261e;
+    --border:#e5e0d6; --chip:#efe9dc;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; font-family:Georgia,'Times New Roman',serif; background:var(--bg); color:var(--ink);
+    min-height:100vh; padding:24px 16px 60px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+  header{text-align:center;margin-bottom:24px;}
+  header h1{font-size:1.7rem;margin:0 0 4px;}
+  header p{color:var(--muted);margin:0;font-size:0.95rem;}
+
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:10px;
+    padding:24px; box-shadow:0 1px 3px rgba(0,0,0,0.05); margin-bottom:20px;
+  }
+
+  /* Setup screen */
+  .cat-list{display:flex;flex-direction:column;gap:10px;margin:16px 0 20px;}
+  .cat-option{
+    display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--border);
+    border-radius:8px;cursor:pointer;background:#fbfaf7;font-family:inherit;font-size:1rem;
+  }
+  .cat-option input{width:18px;height:18px;}
+  .count-row{display:flex;align-items:center;gap:10px;margin:14px 0;}
+  .count-row select{font-family:inherit;font-size:1rem;padding:6px 10px;border-radius:6px;border:1px solid var(--border);}
+  button.primary{
+    background:var(--accent); color:#fff; border:none; border-radius:8px; padding:12px 22px;
+    font-size:1rem; cursor:pointer; font-family:inherit;
+  }
+  button.primary:hover{background:var(--accent-dark);}
+  button.secondary{
+    background:transparent;color:var(--accent);border:1px solid var(--accent);border-radius:8px;
+    padding:10px 18px;font-size:0.95rem;cursor:pointer;font-family:inherit;
+  }
+
+  /* Quiz screen */
+  .progress-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-size:0.9rem;color:var(--muted);}
+  .progress-bar{height:8px;background:var(--chip);border-radius:6px;overflow:hidden;margin-bottom:20px;}
+  .progress-fill{height:100%;background:var(--accent);transition:width .25s ease;}
+  .tag{display:inline-block;font-size:0.75rem;text-transform:uppercase;letter-spacing:.04em;
+       background:var(--chip);color:var(--accent-dark);padding:3px 9px;border-radius:12px;margin-bottom:12px;}
+  .question-text{font-size:1.2rem;line-height:1.4;margin:0 0 18px;}
+  .options{display:flex;flex-direction:column;gap:10px;}
+  .option-btn{
+    text-align:left;padding:13px 16px;border:1px solid var(--border);border-radius:8px;
+    background:#fbfaf7;font-family:inherit;font-size:1rem;cursor:pointer;color:var(--ink);
+  }
+  .option-btn:hover:not(:disabled){border-color:var(--accent);}
+  .option-btn.correct{background:#e8f5ec;border-color:var(--good);color:#0f3d24;}
+  .option-btn.incorrect{background:#fbe9e7;border-color:var(--bad);color:#5e1712;}
+  .option-btn:disabled{cursor:default;}
+  .feedback{margin-top:16px;padding:14px 16px;border-radius:8px;font-size:0.95rem;line-height:1.5;}
+  .feedback.good{background:#e8f5ec;color:#0f3d24;}
+  .feedback.bad{background:#fbe9e7;color:#5e1712;}
+  .nav-row{display:flex;justify-content:flex-end;margin-top:18px;}
+
+  /* Results */
+  .score-big{font-size:2.4rem;font-weight:bold;text-align:center;margin:6px 0;}
+  .score-sub{text-align:center;color:var(--muted);margin-bottom:20px;}
+  .review-item{border-top:1px solid var(--border);padding:14px 0;}
+  .review-item:first-child{border-top:none;}
+  .review-q{font-weight:bold;margin-bottom:6px;}
+  .review-a{font-size:0.95rem;margin:2px 0;}
+  .review-a.your-wrong{color:var(--bad);}
+  .review-a.correct-ans{color:var(--good);}
+  .hidden{display:none;}
+  .error-box{color:var(--bad);text-align:center;padding:20px;}
+  footer{text-align:center;color:var(--muted);font-size:0.8rem;margin-top:30px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>History of the Firm — Practice Quiz</h1>
+    <p>Multiple-choice practice covering the course presentation, "The Company," and "The Ascent of Money"</p>
+  </header>
+
+  <!-- SETUP SCREEN -->
+  <div class="card" id="setup-screen">
+    <div id="setup-body">Loading questions…</div>
+  </div>
+
+  <!-- QUIZ SCREEN -->
+  <div class="card hidden" id="quiz-screen">
+    <div class="progress-row">
+      <span id="progress-label"></span>
+      <span id="score-label"></span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+    <span class="tag" id="q-tag"></span>
+    <p class="question-text" id="q-text"></p>
+    <div class="options" id="q-options"></div>
+    <div id="q-feedback"></div>
+    <div class="nav-row">
+      <button class="primary" id="next-btn" disabled>Next</button>
+    </div>
+  </div>
+
+  <!-- RESULTS SCREEN -->
+  <div class="card hidden" id="results-screen">
+    <div class="score-big" id="final-score"></div>
+    <div class="score-sub" id="final-sub"></div>
+    <div style="text-align:center;margin-bottom:20px;">
+      <button class="secondary" id="review-toggle">Show answer review</button>
+      <button class="primary" id="restart-btn">Try again</button>
+    </div>
+    <div id="review-list" class="hidden"></div>
+  </div>
+
+  <footer>Answer key stored separately in <code>answers/questions.json</code>.</footer>
+</div>
+
+<script>
+(function(){
+  const state = { all: [], pool: [], idx: 0, score: 0, answers: [] };
+
+  const setupBody = document.getElementById('setup-body');
+  const setupScreen = document.getElementById('setup-screen');
+  const quizScreen = document.getElementById('quiz-screen');
+  const resultsScreen = document.getElementById('results-screen');
+
+  function shuffle(arr){
+    const a = arr.slice();
+    for(let i=a.length-1;i>0;i--){
+      const j = Math.floor(Math.random()*(i+1));
+      [a[i],a[j]]=[a[j],a[i]];
+    }
+    return a;
+  }
+
+  fetch('answers/questions.json')
+    .then(r => { if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(data => {
+      state.all = data;
+      buildSetupScreen(data);
+    })
+    .catch(err => {
+      setupBody.innerHTML = `<div class="error-box">
+        Couldn't load the question file (answers/questions.json).<br><br>
+        Most browsers block local file:// pages from fetching other files.<br>
+        Run a tiny local server from this project's folder, e.g.:<br>
+        <code>python3 -m http.server 8000</code><br>
+        then open <code>http://localhost:8000</code>.<br><br>
+        <small>${err.message}</small>
+      </div>`;
+    });
+
+  function buildSetupScreen(data){
+    const cats = data.categories;
+    let html = `<h2 style="margin-top:0;">Set up your practice session</h2>
+      <p style="color:var(--muted);margin-top:-6px;">Choose which topics to include:</p>
+      <div class="cat-list">`;
+    cats.forEach(c => {
+      const n = data.questions.filter(q=>q.category===c.id).length;
+      html += `<label class="cat-option">
+        <input type="checkbox" value="${c.id}" checked>
+        ${c.name} <span style="color:var(--muted);">(${n} questions)</span>
+      </label>`;
+    });
+    html += `</div>
+      <div class="count-row">
+        <label for="q-count">Number of questions:</label>
+        <select id="q-count"></select>
+      </div>
+      <button class="primary" id="start-btn">Start Quiz</button>`;
+    setupBody.innerHTML = html;
+
+    const countSelect = document.getElementById('q-count');
+    function refreshCountOptions(){
+      const checked = Array.from(document.querySelectorAll('.cat-option input:checked')).map(i=>i.value);
+      const available = data.questions.filter(q=>checked.includes(q.category)).length;
+      const opts = [5,10,15,20,'All'].filter(v => v==='All' || v<=available);
+      countSelect.innerHTML = opts.map(v=>`<option value="${v}">${v==='All'?`All (${available})`:v}</option>`).join('');
+    }
+    document.querySelectorAll('.cat-option input').forEach(cb=>{
+      cb.addEventListener('change', refreshCountOptions);
+    });
+    refreshCountOptions();
+
+    document.getElementById('start-btn').addEventListener('click', () => {
+      const checked = Array.from(document.querySelectorAll('.cat-option input:checked')).map(i=>i.value);
+      if(checked.length===0){ alert('Pick at least one category.'); return; }
+      let selected = data.questions.filter(q=>checked.includes(q.category));
+      selected = shuffle(selected);
+      const countVal = countSelect.value;
+      if(countVal !== 'All'){
+        selected = selected.slice(0, parseInt(countVal,10));
+      }
+      // shuffle each question's options, tracking the correct index
+      state.pool = selected.map(q => {
+        const optionOrder = shuffle(q.options.map((opt,i)=>({opt,i})));
+        return {
+          ...q,
+          shuffledOptions: optionOrder.map(o=>o.opt),
+          correctShuffledIndex: optionOrder.findIndex(o=>o.i===q.correctIndex)
+        };
+      });
+      state.idx = 0; state.score = 0; state.answers = [];
+      setupScreen.classList.add('hidden');
+      quizScreen.classList.remove('hidden');
+      renderQuestion();
+    });
+  }
+
+  function renderQuestion(){
+    const q = state.pool[state.idx];
+    document.getElementById('progress-label').textContent = `Question ${state.idx+1} of ${state.pool.length}`;
+    document.getElementById('score-label').textContent = `Score: ${state.score}`;
+    document.getElementById('progress-fill').style.width = ((state.idx)/state.pool.length*100)+'%';
+    const catName = (state.all.categories.find(c=>c.id===q.category)||{}).name || q.category;
+    document.getElementById('q-tag').textContent = catName;
+    document.getElementById('q-text').textContent = q.question;
+    document.getElementById('q-feedback').innerHTML = '';
+    const optsWrap = document.getElementById('q-options');
+    optsWrap.innerHTML = '';
+    const nextBtn = document.getElementById('next-btn');
+    nextBtn.disabled = true;
+
+    q.shuffledOptions.forEach((optText, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'option-btn';
+      btn.textContent = optText;
+      btn.addEventListener('click', () => selectAnswer(i, btn));
+      optsWrap.appendChild(btn);
+    });
+  }
+
+  function selectAnswer(i, btnEl){
+    const q = state.pool[state.idx];
+    const allBtns = document.querySelectorAll('#q-options .option-btn');
+    allBtns.forEach(b=>b.disabled = true);
+
+    const correct = i === q.correctShuffledIndex;
+    if(correct){
+      btnEl.classList.add('correct');
+      state.score++;
+    } else {
+      btnEl.classList.add('incorrect');
+      allBtns[q.correctShuffledIndex].classList.add('correct');
+    }
+    state.answers.push({
+      question: q.question,
+      yourAnswer: q.shuffledOptions[i],
+      correctAnswer: q.shuffledOptions[q.correctShuffledIndex],
+      wasCorrect: correct,
+      explanation: q.explanation
+    });
+
+    const fb = document.getElementById('q-feedback');
+    fb.innerHTML = `<div class="feedback ${correct?'good':'bad'}">
+      ${correct ? '✓ Correct.' : '✗ Not quite.'} ${q.explanation}
+    </div>`;
+    document.getElementById('next-btn').disabled = false;
+  }
+
+  document.getElementById('next-btn').addEventListener('click', () => {
+    state.idx++;
+    if(state.idx >= state.pool.length){
+      showResults();
+    } else {
+      renderQuestion();
+    }
+  });
+
+  function showResults(){
+    quizScreen.classList.add('hidden');
+    resultsScreen.classList.remove('hidden');
+    const pct = Math.round((state.score/state.pool.length)*100);
+    document.getElementById('final-score').textContent = `${state.score} / ${state.pool.length}`;
+    document.getElementById('final-sub').textContent = `${pct}% correct`;
+
+    const reviewList = document.getElementById('review-list');
+    reviewList.innerHTML = state.answers.map(a => `
+      <div class="review-item">
+        <div class="review-q">${a.question}</div>
+        <div class="review-a ${a.wasCorrect?'':'your-wrong'}">Your answer: ${a.yourAnswer}</div>
+        ${a.wasCorrect ? '' : `<div class="review-a correct-ans">Correct answer: ${a.correctAnswer}</div>`}
+        <div style="color:var(--muted);font-size:0.9rem;margin-top:4px;">${a.explanation}</div>
+      </div>
+    `).join('');
+  }
+
+  document.getElementById('review-toggle').addEventListener('click', function(){
+    const rl = document.getElementById('review-list');
+    const hidden = rl.classList.toggle('hidden');
+    this.textContent = hidden ? 'Show answer review' : 'Hide answer review';
+  });
+
+  document.getElementById('restart-btn').addEventListener('click', () => {
+    resultsScreen.classList.add('hidden');
+    setupScreen.classList.remove('hidden');
+    buildSetupScreen(state.all);
+  });
+})();
+</script>
+</body>
+</html>
