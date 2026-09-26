@@ -1,0 +1,1791 @@
+{
+  "categories": [
+    {
+      "id": "presentation",
+      "name": "History of the Firm (Presentation)"
+    },
+    {
+      "id": "company",
+      "name": "The Company (Micklethwait & Wooldridge)"
+    },
+    {
+      "id": "money",
+      "name": "The Ascent of Money (Niall Ferguson)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p1",
+      "category": "presentation",
+      "question": "Which historical period is most associated with 'The First Companies' era, exemplified by firms like the Medici Bank and the Fugger Family?",
+      "options": [
+        "13th-16th Century",
+        "17th Century",
+        "18th Century",
+        "19th Century"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 13th-16th centuries mark the era of 'The First Companies,' with the Medici Bank and the Fugger Family as leading examples of early family-run banking and trading houses."
+    },
+    {
+      "id": "p2",
+      "category": "presentation",
+      "question": "Which two firms best exemplify the rise of the 'Joint-Stock Company' in the 17th century?",
+      "options": [
+        "East India Company and Dutch East India Company",
+        "Standard Oil and Carnegie Steel",
+        "Ford Motor Company and General Motors",
+        "IBM and Microsoft"
+      ],
+      "correctIndex": 0,
+      "explanation": "The English East India Company and the Dutch East India Company were the defining firms of the 17th-century joint-stock era."
+    },
+    {
+      "id": "p3",
+      "category": "presentation",
+      "question": "Which of the following was a major driver of the Industrial Revolution?",
+      "options": [
+        "High agricultural productivity",
+        "Global internet access",
+        "Deregulated currency markets",
+        "Consumer financing plans"
+      ],
+      "correctIndex": 0,
+      "explanation": "High agricultural productivity, availability of coal and iron, political stability, and financial capital were all major drivers of the Industrial Revolution."
+    },
+    {
+      "id": "p4",
+      "category": "presentation",
+      "question": "Richard Arkwright's mechanical innovation, credited with launching the factory system, was the:",
+      "options": [
+        "Water Frame",
+        "Spinning Jenny",
+        "Steam Locomotive",
+        "Separate Condenser"
+      ],
+      "correctIndex": 0,
+      "explanation": "The slide credits Arkwright's Water Frame with automating spinning and leading to the factory system."
+    },
+    {
+      "id": "p5",
+      "category": "presentation",
+      "question": "James Watt's firm, Boulton & Watt, is credited with which innovation to the steam engine?",
+      "options": [
+        "The separate condenser",
+        "The water frame",
+        "The carding machine",
+        "The cotton gin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The separate condenser greatly improved the efficiency and cost-effectiveness of steam engines."
+    },
+    {
+      "id": "p6",
+      "category": "presentation",
+      "question": "Which of these is NOT one of the 'Robber Barons' of the American Gilded Age?",
+      "options": [
+        "Bill Gates",
+        "Andrew Carnegie",
+        "John D. Rockefeller",
+        "Cornelius Vanderbilt"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Gilded Age Robber Barons include Carnegie, Rockefeller, Vanderbilt, J.P. Morgan, and Henry Ford - not Bill Gates, a 20th/21st-century figure."
+    },
+    {
+      "id": "p7",
+      "category": "presentation",
+      "question": "J.P. Morgan's primary industry was:",
+      "options": [
+        "Banking/Finance",
+        "Steel",
+        "Oil",
+        "Railroads"
+      ],
+      "correctIndex": 0,
+      "explanation": "J.P. Morgan & Co. operated in Banking/Finance, providing financial services and playing a key role in stabilizing American markets."
+    },
+    {
+      "id": "p8",
+      "category": "presentation",
+      "question": "The Factory Act of 1833 primarily addressed which issue?",
+      "options": [
+        "Restricting child labor and setting a minimum working age",
+        "Legalizing trade unions",
+        "Breaking up monopolies",
+        "Expanding the electorate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Factory Act of 1833 restricted child labor, set a minimum working age, and limited children's working hours."
+    },
+    {
+      "id": "p9",
+      "category": "presentation",
+      "question": "In what year did the U.S. Supreme Court order Standard Oil broken up, and into how many companies?",
+      "options": [
+        "1911, into 34 companies",
+        "1890, into 10 companies",
+        "1904, into 2 companies",
+        "1920, into 50 companies"
+      ],
+      "correctIndex": 0,
+      "explanation": "The U.S. Supreme Court ordered the breakup of Standard Oil into 34 companies in 1911."
+    },
+    {
+      "id": "p10",
+      "category": "presentation",
+      "question": "The Sherman Antitrust Act, which made it illegal to form monopolies or restrain trade, was passed in the United States in:",
+      "options": [
+        "1890",
+        "1904",
+        "1914",
+        "1920"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Sherman Antitrust Act, passed in 1890, made it illegal to form monopolies or restrain trade in the United States."
+    },
+    {
+      "id": "p11",
+      "category": "presentation",
+      "question": "Alfred Sloan's most significant structural change at General Motors was introducing a:",
+      "options": [
+        "Decentralized management structure with semi-autonomous divisions",
+        "Fully centralized command structure",
+        "Worker-owned cooperative model",
+        "Single-brand product line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sloan divided GM into semi-autonomous divisions (Chevrolet, Pontiac, Oldsmobile, Buick, Cadillac), fostering internal competition while keeping overall corporate control."
+    },
+    {
+      "id": "p12",
+      "category": "presentation",
+      "question": "What was the name of General Motors' consumer financing arm, introduced under Sloan?",
+      "options": [
+        "GMAC (General Motors Acceptance Corporation)",
+        "GM Capital",
+        "Motor Credit Union",
+        "AutoFinance Inc."
+      ],
+      "correctIndex": 0,
+      "explanation": "GMAC made car ownership more accessible by offering consumer financing, boosting sales significantly."
+    },
+    {
+      "id": "p13",
+      "category": "presentation",
+      "question": "The Toyota Production System (TPS) is best known for introducing which manufacturing philosophy?",
+      "options": [
+        "Lean manufacturing and just-in-time production",
+        "Mass assembly-line production",
+        "Vertical integration of raw materials",
+        "Annual model changes"
+      ],
+      "correctIndex": 0,
+      "explanation": "TPS introduced lean manufacturing and just-in-time production, reducing waste and improving quality industry-wide."
+    },
+    {
+      "id": "p14",
+      "category": "presentation",
+      "question": "IBM is historically credited with inventing which of the following foundational technologies?",
+      "options": [
+        "The DRAM, and the hard disk drive",
+        "The World Wide Web",
+        "The transistor radio",
+        "The smartphone"
+      ],
+      "correctIndex": 0,
+      "explanation": "IBM is credited with inventing the DRAM, the floppy disk, the hard disk drive, and the relational database, among other innovations."
+    },
+    {
+      "id": "c1",
+      "category": "company",
+      "question": "In 'The Company: A Short History of a Revolutionary Idea,' Micklethwait and Wooldridge define the modern company chiefly by which combination of features?",
+      "options": [
+        "It is a distinct legal person, has tradable shares, and offers limited liability to investors",
+        "It must be owned entirely by a single founder",
+        "It cannot own property in its own name",
+        "It is always state-owned"
+      ],
+      "correctIndex": 0,
+      "explanation": "The authors define the company as a limited-liability, joint-stock legal entity: an artificial person with tradable shares and limited investor liability."
+    },
+    {
+      "id": "c2",
+      "category": "company",
+      "question": "The Dutch East India Company (VOC) is widely credited as a landmark in corporate history chiefly because it:",
+      "options": [
+        "Issued shares that were tradable on the Amsterdam exchange, an early form of a public company",
+        "Was the first company to pay a dividend in gold",
+        "Was the first company to go bankrupt",
+        "Invented the concept of the corporate logo"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 1602, the VOC issued shares tradable on the Amsterdam Stock Exchange, an early milestone toward the modern publicly traded corporation."
+    },
+    {
+      "id": "c3",
+      "category": "company",
+      "question": "The book highlights Adam Smith as a notable early critic of joint-stock companies. What was his core objection?",
+      "options": [
+        "The separation of ownership from management created weak incentives for hired managers ('directors of other people's money')",
+        "He believed companies should pay no taxes at all",
+        "He thought companies grew too slowly",
+        "He objected to companies having any employees"
+      ],
+      "correctIndex": 0,
+      "explanation": "Smith worried that managers entrusted with others' capital would not watch over it with the same vigilance as owners of their own money - the classic agency problem."
+    },
+    {
+      "id": "c4",
+      "category": "company",
+      "question": "According to the book, widespread limited liability for shareholders in Britain was firmly established through legislation passed in which decade?",
+      "options": [
+        "The 1850s",
+        "The 1700s",
+        "The 1930s",
+        "The 2000s"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Limited Liability Act of 1855 and the Joint Stock Companies Act of 1856 made limited liability the default position for British companies."
+    },
+    {
+      "id": "c5",
+      "category": "company",
+      "question": "The South Sea Bubble of 1720, discussed in the book as an early cautionary tale, involved:",
+      "options": [
+        "Speculative mania driving a company's share price far above any realistic value before it collapsed",
+        "The first hostile corporate takeover",
+        "A government nationalizing all private companies",
+        "The invention of the stock ticker"
+      ],
+      "correctIndex": 0,
+      "explanation": "The South Sea Company's stock price rose on speculation and government-backed promises, then crashed dramatically, becoming a classic example of financial mania."
+    },
+    {
+      "id": "c6",
+      "category": "company",
+      "question": "One of the authors' central arguments is that the company should be understood primarily as:",
+      "options": [
+        "A hugely influential institutional 'idea' that reshaped how humans organize economic activity",
+        "A purely modern invention with no historical roots before the 1900s",
+        "An institution that only ever benefited its founders",
+        "A temporary legal fiction destined to disappear"
+      ],
+      "correctIndex": 0,
+      "explanation": "Micklethwait and Wooldridge argue the company is one of the most important organizing ideas in Western history, comparable in influence to major belief systems and states."
+    },
+    {
+      "id": "c7",
+      "category": "company",
+      "question": "The English (British) East India Company received its original royal charter granting a trading monopoly from which monarch?",
+      "options": [
+        "Elizabeth I",
+        "Henry VIII",
+        "Queen Victoria",
+        "George III"
+      ],
+      "correctIndex": 0,
+      "explanation": "Elizabeth I granted the East India Company its royal charter in 1600, giving it a monopoly on English trade with the East Indies."
+    },
+    {
+      "id": "c8",
+      "category": "company",
+      "question": "The book discusses corporate scandals such as Enron's collapse in the early 2000s mainly to illustrate:",
+      "options": [
+        "The recurring tension between corporate governance safeguards and management's incentive to mislead shareholders",
+        "That accounting rules had never existed before Enron",
+        "That government regulation of business began only after 2001",
+        "That family-run firms are always more honest than public companies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enron is used as a modern example of the governance failures and agency problems that have challenged the corporate form since its earliest days."
+    },
+    {
+      "id": "c9",
+      "category": "company",
+      "question": "Before the joint-stock company matured, medieval guilds and chartered towns are described in the book as important because they:",
+      "options": [
+        "Established the precedent of a corporate body existing as a continuous legal entity, distinct from its individual members",
+        "Invented the assembly line",
+        "Were the first to issue paper currency",
+        "Operated exclusively across national borders"
+      ],
+      "correctIndex": 0,
+      "explanation": "Guilds and chartered towns pioneered the idea of an 'immortal' collective legal body that persists beyond the lives of its individual members."
+    },
+    {
+      "id": "c10",
+      "category": "company",
+      "question": "Which of these is a key difference the authors draw between a simple partnership and a true joint-stock company?",
+      "options": [
+        "A joint-stock company's shares can be transferred without dissolving the enterprise, unlike a traditional partnership",
+        "A partnership can never have more than one owner",
+        "A joint-stock company cannot hire employees",
+        "There is no difference between the two"
+      ],
+      "correctIndex": 0,
+      "explanation": "Transferable shares allowed joint-stock companies to raise capital and change ownership continuously, unlike partnerships, which traditionally dissolved when a partner left."
+    },
+    {
+      "id": "c11",
+      "category": "company",
+      "question": "According to the book, railways in the 19th century affected the development of the company mainly by:",
+      "options": [
+        "Requiring such enormous amounts of capital that they accelerated the spread of the joint-stock, limited-liability model",
+        "Making joint-stock companies illegal",
+        "Eliminating the need for any outside investors",
+        "Being run entirely by government ministries with no private capital"
+      ],
+      "correctIndex": 0,
+      "explanation": "The huge capital needs of railway building pushed many economies toward wider adoption of joint-stock, limited-liability financing."
+    },
+    {
+      "id": "m1",
+      "category": "money",
+      "question": "In 'The Ascent of Money,' Niall Ferguson traces early banking and credit innovations to which Renaissance-era family?",
+      "options": [
+        "The Medici family of Florence",
+        "The Rothschild family",
+        "The Rockefeller family",
+        "The Fugger family of Bavaria"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ferguson highlights the Medici bank of Florence as a foundational example of Renaissance banking and finance."
+    },
+    {
+      "id": "m2",
+      "category": "money",
+      "question": "Ferguson uses the Rothschild family's financing of European governments to illustrate the historical importance of which financial instrument?",
+      "options": [
+        "Government bonds",
+        "Cryptocurrency",
+        "Corporate stock options",
+        "Life insurance annuities"
+      ],
+      "correctIndex": 0,
+      "explanation": "The series shows how the Rothschilds built a fortune and influence by financing government debt through bond markets, including during and after the Napoleonic Wars."
+    },
+    {
+      "id": "m3",
+      "category": "money",
+      "question": "The episode on stock market bubbles uses the Mississippi Company and the South Sea Bubble as early examples of what recurring pattern?",
+      "options": [
+        "Speculative mania driving asset prices far beyond fundamentals, followed by a crash",
+        "Governments permanently banning stock trading afterward",
+        "Stock markets that never recovered",
+        "The first use of paper money in history"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ferguson presents these 18th-century bubbles as prototypes of the boom-bust cycles seen repeatedly in financial history."
+    },
+    {
+      "id": "m4",
+      "category": "money",
+      "question": "Ferguson connects the 2007-2008 global financial crisis most directly to problems in which market?",
+      "options": [
+        "U.S. subprime mortgages and mortgage-backed securities",
+        "The gold market",
+        "The market for classic cars",
+        "The global tea trade"
+      ],
+      "correctIndex": 0,
+      "explanation": "The crisis is traced to risky subprime mortgage lending and the complex securities built on those loans, which spread losses through the global financial system."
+    },
+    {
+      "id": "m5",
+      "category": "money",
+      "question": "The term Ferguson coins to describe the intertwined economic relationship between China and the United States is:",
+      "options": [
+        "Chimerica",
+        "Eurasia Inc.",
+        "The Pacific Compact",
+        "Sino-Dollar Union"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Chimerica' describes how Chinese savings and manufacturing became deeply linked with American consumption and borrowing."
+    },
+    {
+      "id": "m6",
+      "category": "money",
+      "question": "According to the series, the origins of insurance as a financial tool are illustrated through early efforts to protect against which kind of risk?",
+      "options": [
+        "The financial hardship faced by widows and orphans after a breadwinner's death",
+        "The risk of currency counterfeiting",
+        "The risk of stock market bubbles alone",
+        "The risk of railway accidents only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ferguson traces early insurance schemes, such as Scottish ministers' funds, that pooled risk to provide for widows and families after a death."
+    },
+    {
+      "id": "m7",
+      "category": "money",
+      "question": "Ferguson's overarching thesis in 'The Ascent of Money' is best summarized as:",
+      "options": [
+        "Financial innovation has been a critical, if often risky, driver of human and economic progress throughout history",
+        "All financial development has been harmful to society",
+        "Money only became important after the year 2000",
+        "Governments should eliminate all forms of credit and lending"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ferguson argues that the evolution of money, credit, bonds, stocks, insurance, and real estate finance has repeatedly enabled economic growth, despite recurring crises."
+    },
+    {
+      "id": "m8",
+      "category": "money",
+      "question": "The episode on real estate and mortgages argues that housing bubbles are often driven primarily by:",
+      "options": [
+        "Cheap and easily available credit fueling excessive borrowing and leverage",
+        "A permanent shortage of land",
+        "The complete absence of banks",
+        "Strict government caps on home prices"
+      ],
+      "correctIndex": 0,
+      "explanation": "Easy credit and leverage are shown as key drivers pushing home prices upward until the bubble eventually bursts."
+    },
+    {
+      "id": "m9",
+      "category": "money",
+      "question": "Ferguson traces the earliest forms of money and credit-based transactions back to which ancient region?",
+      "options": [
+        "Mesopotamia",
+        "The Roman Empire only",
+        "Medieval England",
+        "Colonial North America"
+      ],
+      "correctIndex": 0,
+      "explanation": "The series opens with the deep history of money and credit, pointing to ancient Mesopotamia as an early site of lending and debt records."
+    },
+    {
+      "id": "m10",
+      "category": "money",
+      "question": "A key point Ferguson makes about bond markets and government borrowing is that they historically allowed governments to:",
+      "options": [
+        "Finance large-scale wars and long-term projects by borrowing against future tax revenue",
+        "Avoid ever raising taxes again",
+        "Eliminate the need for a central bank",
+        "Guarantee that inflation would never occur"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bond markets let states like Britain fund costly, prolonged wars (such as against Napoleon) by borrowing now and repaying over time."
+    },
+    {
+      "id": "m11",
+      "category": "money",
+      "question": "In discussing risk and insurance, the series suggests that the spread of insurance and pensions over time has generally:",
+      "options": [
+        "Shifted and pooled individual risks across larger groups of people",
+        "Eliminated all financial risk from society",
+        "Been rejected by every modern government",
+        "Only ever applied to shipping cargo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Insurance and pension systems developed as ways to pool and spread risk across many people rather than leaving it with a single individual or family."
+    },
+    {
+      "id": "c12",
+      "category": "company",
+      "question": "How did early chartered joint-stock companies solve the problem of raising the massive capital required for long-distance oceanic trade during the Age of Exploration?",
+      "options": [
+        "By relying solely on direct loans from European monarchs.",
+        "By issuing paper currency backed by Roman gold reserves.",
+        "By forcing foreign trading ports to fund corporate ventures.",
+        "By pooling capital from hundreds or thousands of individual investors in transferable shares."
+      ],
+      "correctIndex": 3,
+      "explanation": "Joint-stock companies like the VOC and EIC spread the huge cost and risk of long voyages across many investors, who held tradable shares rather than bearing the whole risk alone."
+    },
+    {
+      "id": "m12",
+      "category": "money",
+      "question": "How did Nathan Rothschild deliver crucial liquidity to the Duke of Wellington's military campaign during the Napoleonic Wars?",
+      "options": [
+        "By trading Confederate cotton futures on the London stock exchange",
+        "By smuggling gold bullion across continental Europe through private networks",
+        "By issuing digital credit transfers directly to French suppliers",
+        "By minting silver coins directly inside Wellington's military encampments"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rothschild used the family's cross-border network to move gold across Europe so Wellington's army could be paid and supplied, a logistical feat as important as any battlefield tactic."
+    },
+    {
+      "id": "m13",
+      "category": "money",
+      "question": "Bill Gross and PIMCO were highlighted in Episode 2 to illustrate which fundamental financial concept?",
+      "options": [
+        "The supremacy of barter systems in post-industrial societies",
+        "The failure of double-entry accounting in modern hedge funds",
+        "The immense influence modern institutional bond markets hold over sovereign states",
+        "The reliance of modern central banking on silver standards"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ferguson uses Bill Gross and PIMCO, one of the world's largest bond investors, to show how bond markets can discipline even powerful governments through the price they demand for lending money to them."
+    },
+    {
+      "id": "m14",
+      "category": "money",
+      "question": "In medieval and Renaissance Europe, which restriction created opportunities for early Jewish merchants to act as key financial intermediaries?",
+      "options": [
+        "Catholic usury laws prohibiting Christians from charging interest on loans",
+        "Fibonacci's prohibition on Hindu-Arabic numerals in Florence",
+        "Roman laws forbidding Christians from owning real estate",
+        "Guild restrictions against Christian double-entry bookkeeping"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because canon law barred Christians from charging interest, Jewish moneylenders, who were not bound by that prohibition, filled a crucial gap in medieval credit markets."
+    },
+    {
+      "id": "m15",
+      "category": "money",
+      "question": "In the study of modern political economy, what is the inverse relationship between bond prices and yield?",
+      "options": [
+        "As bond prices rise, yield remains fixed permanently",
+        "As bond prices rise, bond yields also rise proportionally",
+        "Bond prices and yields are completely independent of market demand",
+        "As bond prices fall, bond yields rise"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bond prices and yields move in opposite directions: as a bond's market price falls, the fixed coupon represents a larger percentage return, so its yield rises (and vice versa)."
+    },
+    {
+      "id": "c13",
+      "category": "company",
+      "question": "In 'The Wealth of Nations' (1776), why did Adam Smith doubt that joint-stock companies could succeed in routine commercial competition?",
+      "options": [
+        "He believed double-entry bookkeeping was fundamentally inaccurate.",
+        "He believed shareholders had too much direct oversight over managers.",
+        "He argued that professional managers lacked the vigilance of owner-operators working with their own capital",
+        "He thought joint-stock companies were legally prohibited from operating outside of Britain."
+      ],
+      "correctIndex": 2,
+      "explanation": "Smith argued hired directors, managing 'other people's money,' could not be expected to watch over it with the same anxious vigilance owners show toward their own capital."
+    },
+    {
+      "id": "c14",
+      "category": "company",
+      "question": "The Dutch East India Company (VOC), founded in 1602, traded its shares publicly on which newly established financial exchange?",
+      "options": [
+        "London Stock Exchange",
+        "Borsa Italiana in Florence",
+        "Paris Bourse",
+        "Amsterdam Stock Exchange"
+      ],
+      "correctIndex": 3,
+      "explanation": "The VOC issued shares tradable on the newly formed Amsterdam Stock Exchange, an early milestone toward the modern publicly traded corporation."
+    },
+    {
+      "id": "m16",
+      "category": "money",
+      "question": "What primary economic phenomenon resulted from Spain's massive extraction of silver from Cerro Rico in Potosi during the 16th century?",
+      "options": [
+        "Severe, long-term inflation across Europe",
+        "Universal adoption of the Incan labor credit system",
+        "Immediate bankruptcy of the Medici Bank",
+        "Rapid hyper-deflation across the Americas"
+      ],
+      "correctIndex": 0,
+      "explanation": "The flood of American silver into Europe is widely credited with fueling the 'Price Revolution,' a prolonged period of significant inflation."
+    },
+    {
+      "id": "c15",
+      "category": "company",
+      "question": "What primary limitation prevented medieval Italian merchant partnerships (compagnie) from functioning as modern corporations?",
+      "options": [
+        "They were prohibited from charging interest under all circumstances.",
+        "They lacked perpetual life and limited liability for partners.",
+        "They could not engage in international trade across city-states.",
+        "They were required to be owned entirely by the Catholic Church."
+      ],
+      "correctIndex": 1,
+      "explanation": "Unlike a modern corporation, these partnerships typically dissolved when a partner died or withdrew, and partners remained personally liable for the firm's debts."
+    },
+    {
+      "id": "m17",
+      "category": "money",
+      "question": "What was the core function of Florence's 'Monte Comune' established in the 14th century?",
+      "options": [
+        "A consolidated public debt fund issuing interest-bearing state bonds",
+        "A joint-stock corporation for overseas colonial conquest",
+        "A centralized agricultural market for grain price controls",
+        "A royal charity fund distributing silver directly to citizens"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Monte Comune consolidated Florence's forced loans into a single public debt fund that paid interest to citizen-creditors, an early form of government bond market."
+    },
+    {
+      "id": "c16",
+      "category": "company",
+      "question": "What did the Bubble Act of 1720 do?",
+      "options": [
+        "The immediate adoption of limited liability for all British businesses.",
+        "The nationalization of the Dutch East India Company.",
+        "It restricted the formation/operation of joint-stock companies without a royal charter.",
+        "Parliament abolished all chartered monopolies across the empire."
+      ],
+      "correctIndex": 2,
+      "explanation": "The Bubble Act 1720 restricted the formation of new joint-stock companies without a royal charter, a direct legislative reaction to the speculative collapse."
+    },
+    {
+      "id": "c17",
+      "category": "company",
+      "question": "What was the main purpose of granting a Royal Charter to entities like the Muscovy Company or the Hudson's Bay Company?",
+      "options": [
+        "To enforce democratic governance within foreign territories.",
+        "To eliminate all financial risk for individual retail investors in Britain.",
+        "To force companies to pay 100% of their revenue to the monarch.",
+        "To delegate state powers and trade monopolies in exchange for colonial expansion and revenue."
+      ],
+      "correctIndex": 3,
+      "explanation": "Royal charters granted exclusive trading monopolies and delegated quasi-governmental powers to chartered companies in exchange for advancing colonial and commercial interests of the crown."
+    },
+    {
+      "id": "c18",
+      "category": "company",
+      "question": "Which ancient Roman organization performed state functions like tax collection and public works construction, featuring proto-shareholders?",
+      "options": [
+        "Societas",
+        "Compagnie",
+        "Publicani",
+        "Collegia"
+      ],
+      "correctIndex": 2,
+      "explanation": "The societates publicanorum ('publicani') were Roman tax-farming partnerships whose ownership was divided into shares (partes), an early precursor to corporate shareholding."
+    },
+    {
+      "id": "c19",
+      "category": "company",
+      "question": "Which legal feature allowed corporate entities to own property, enter contracts, and sue or be sued in court in their own name?",
+      "options": [
+        "Public Dividend Yield",
+        "Legal Personhood (Persona Ficta)",
+        "Limited Liability",
+        "Double-Entry Bookkeeping"
+      ],
+      "correctIndex": 1,
+      "explanation": "Legal personhood (persona ficta) treats the company as an artificial 'person' distinct from its owners, able to hold property and be a party to contracts and lawsuits in its own right."
+    },
+    {
+      "id": "m18",
+      "category": "money",
+      "question": "Which British financial instrument did Nathan Rothschild famously acquire in vast quantities around the time of the Battle of Waterloo?",
+      "options": [
+        "Florentine Monte Securities",
+        "Consols (Government Bonds)",
+        "Dutch East India Stock",
+        "Mississippi Company Shares"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rothschild built a large position in British government bonds ('consols'), which rose in value as Britain's victory secured its financial position, generating enormous profit."
+    },
+    {
+      "id": "m19",
+      "category": "money",
+      "question": "Which English mercenary commander's costly military services forced Florentine leaders to innovate public debt securities?",
+      "options": [
+        "Duke of Wellington",
+        "Oliver Cromwell",
+        "Sir John Hawkwood",
+        "Sir Francis Drake"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sir John Hawkwood, an English condottiero hired by Florence, was so expensive to retain that the city was pushed toward consolidating forced loans into the interest-paying Monte Comune."
+    },
+    {
+      "id": "c20",
+      "category": "company",
+      "question": "Which legal feature of a modern corporation ensures that shareholders cannot lose more than the amount they originally invested?",
+      "options": [
+        "Limited Liability",
+        "Double-entry Bookkeeping",
+        "Transferable Equity",
+        "Legal Personhood"
+      ],
+      "correctIndex": 0,
+      "explanation": "Limited liability caps a shareholder's potential loss at the amount they invested, protecting personal assets from the company's debts."
+    },
+    {
+      "id": "m20",
+      "category": "money",
+      "question": "Which mathematical and operational innovation allowed the Medici Bank to scale across Europe while managing risk across multiple branches?",
+      "options": [
+        "Double-entry bookkeeping and decentralized branch structures",
+        "Tontine insurance pools",
+        "Binary code and algorithmic trading",
+        "Paper currency backed directly by gold reserves"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Medici combined double-entry bookkeeping with a structure of semi-independent branch partnerships, letting them track accounts precisely while containing risk to each branch."
+    },
+    {
+      "id": "m21",
+      "category": "money",
+      "question": "Which Scottish economist and financier was responsible for introducing the paper money scheme and the Mississippi Bubble in early 18th-century France?",
+      "options": [
+        "Francesco Datini",
+        "John Law",
+        "Adam Smith",
+        "Luca Pacioli"
+      ],
+      "correctIndex": 1,
+      "explanation": "John Law, a Scottish financier, convinced the French crown to adopt his paper-money and Mississippi Company scheme, which inflated into a bubble before collapsing."
+    },
+    {
+      "id": "m22",
+      "category": "money",
+      "question": "Why did European financial backing for the Confederate States of America via 'Cotton Bonds' ultimately fail?",
+      "options": [
+        "The Medici Bank purchased all outstanding cotton contracts",
+        "European nations outlawed the import of cotton in 1860",
+        "The Union naval blockade disrupted cotton exports, destroying bond backing",
+        "High silver yields in Potosi rendered cotton valueless"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Union blockade prevented the South from shipping the cotton that backed these bonds, undermining their value and contributing to their collapse."
+    },
+    {
+      "id": "c21",
+      "category": "company",
+      "question": "Adam Smith strongly advocated for joint-stock corporations in 'The Wealth of Nations', praising them as superior to owner-managed firms in operational efficiency.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "m23",
+      "category": "money",
+      "question": "Ancient Mesopotamian clay tablets demonstrate that credit networks and recorded promises to repay existed long before formal metal coinage was minted.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "m24",
+      "category": "money",
+      "question": "Bond markets serve as a major constraint on sovereign state spending because rising bond yields directly increase a government's borrowing costs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "m25",
+      "category": "money",
+      "question": "Double-entry bookkeeping, popularized by Luca Pacioli in the late 15th century, was crucial to Renaissance commerce because it allowed multi-branch businesses to track complex accounts accurately.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "c22",
+      "category": "company",
+      "question": "Early imperial chartered entities like the English East India Company were strictly non-political, focusing exclusively on trade and avoiding military or governance activities.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "m26",
+      "category": "money",
+      "question": "Fibonacci introduced Hindu-Arabic numerals and positional algebra to Western commercial practice, greatly improving accounting efficiency over Roman numerals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "c23",
+      "category": "company",
+      "question": "Francesco di Marco Datini, known as the 'Merchant of Prato,' relied on unlimited joint-stock corporate structures to protect his wealth.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "c24",
+      "category": "company",
+      "question": "In ancient Rome, the societas was a permanent corporate entity that could outlive its individual partners indefinitely.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "m27",
+      "category": "money",
+      "question": "In Episode 1, Niall Ferguson argues that money is fundamentally defined by physical commodity value, such as gold or silver bullion, rather than a system of inscribed trust.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "m28",
+      "category": "money",
+      "question": "In the modern financial landscape, bond investors exercise little to no influence over government fiscal policy compared to central bank chairpersons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "m29",
+      "category": "money",
+      "question": "Nathan Rothschild built his fortune during the Napoleonic Wars primarily by shorting British debt immediately following the Battle of Waterloo.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "m30",
+      "category": "money",
+      "question": "Renaissance Italian city-states created municipal bond markets, such as Florence's Monte Comune, as a mechanism to fund military defense and mercenary armies.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "c25",
+      "category": "company",
+      "question": "The Bubble Act of 1720 was enacted by the British Parliament to promote the rapid and unrestricted growth of unchartered joint-stock companies.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "m31",
+      "category": "money",
+      "question": "The Confederate States of America successfully financed their Civil War effort through cotton-backed bonds traded on European markets without defaulting.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "c26",
+      "category": "company",
+      "question": "The Dutch East India Company (VOC), founded in 1602, was revolutionary because it established a permanent joint-stock capital base rather than liquidating assets after each individual voyage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "m32",
+      "category": "money",
+      "question": "The Incas had a sophisticated monetary system based on standardized silver coinage prior to the arrival of Francisco Pizarro in 1532.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "c27",
+      "category": "company",
+      "question": "The legal concept of persona ficta (an artificial legal person) was significantly developed within Medieval Canon Law to manage entities like monasteries and universities.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "m33",
+      "category": "money",
+      "question": "The Medici Bank managed risk by structuring its various foreign branches as separate partnerships under a central holding company arrangement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "m34",
+      "category": "money",
+      "question": "The Medici family maintained their financial dominance primarily by directly charging high upfront interest rates in open defiance of medieval Catholic usury prohibitions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "c28",
+      "category": "company",
+      "question": "The three core legal pillars of the modern corporation are legal personhood, transferable shares, and limited liability.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "c29",
+      "category": "company",
+      "question": "During the eighteenth century, the Royal African Company (RAC) and other chartered companies set up for the slave trade were outstanding financial successes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "m35",
+      "category": "money",
+      "question": "In The Ascent of Money Episode 3, Niall Ferguson explores the history of the stock market, market psychology, and the recurring phenomenon of speculative bubbles and crashes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "c30",
+      "category": "company",
+      "question": "The Dutch East India Company is highlighted as the creator of the world's first joint-stock limited-liability company and public share trading.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "m36",
+      "category": "money",
+      "question": "John Law was an English financier who successfully stabilized the French national debt permanently without causing any economic turmoil.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "c31",
+      "category": "company",
+      "question": "Adam Smith argued that owner-managed firms were inferior economic units and that joint-stock companies were far purer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "m37",
+      "category": "money",
+      "question": "Alan Greenspan is noted for coining the famous market phrase \"irrational exuberance\" to describe synchronized, surging stock market spikes driven by investor euphoria.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "c32",
+      "category": "company",
+      "question": "Dirck Bas is discussed in the episode as a prominent founder and managing director of the Dutch East India Company.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "c33",
+      "category": "company",
+      "question": "Early British industrialists like Richard Arkwright, Abraham Darby, and Josiah Wedgwood heavily favored joint-stock corporations over private partnerships.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "c34",
+      "category": "company",
+      "question": "Following the 1856 and 1862 Acts, British law provided extensive protection and mandatory audited accounts for shareholders right from the start.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "m38",
+      "category": "money",
+      "question": "Historical financial panics and crashes demonstrate that human financial memory tends to be remarkably enduring and cautious across generations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "m39",
+      "category": "money",
+      "question": "In 1733, Irish satirist Samuel Madden published an early science fiction pamphlet predicting that two giant companies (the Royal Fishery and the Plantation Company) would dominate the world.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "c35",
+      "category": "company",
+      "question": "In newly independent America, chartered corporations with special monopoly rights were used extensively to build vital infrastructure such as universities, banks, canals, and roads.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "m40",
+      "category": "money",
+      "question": "Niall Ferguson argues that stock markets rarely resemble fragile economic \"soap bubbles\" and operate with absolute mathematical predictability.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "c36",
+      "category": "company",
+      "question": "Robert Lowe masterminded the landmark Joint Stock Companies Act of 1856, striving to make company formation a matter of legal right rather than political privilege.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "m41",
+      "category": "money",
+      "question": "The collapse of the once-revered finance house Overend, Gurney on Black Friday in May 1866 led to a severe run on the banks and widespread financial panic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "m42",
+      "category": "money",
+      "question": "The Enron scandal of 2001 serves as a modern corporate parallel to historical financial schemes like John Law's Mississippi bubble through inflated values and hidden debts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "m43",
+      "category": "money",
+      "question": "The Great Crash of 1929 on Wall Street marked the beginning of the Great Depression and demonstrated the dangers of excessive market speculation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "m44",
+      "category": "money",
+      "question": "The Mississippi Bubble was an 18th-century financial scheme in France that combined a trading company monopoly with a central bank, leading to Europe's first major stock market bubble.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "c37",
+      "category": "company",
+      "question": "The Supreme Court ruling in the 1819 Dartmouth College case established that corporate charters could be rewritten capriciously by state legislatures at any time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": null
+    },
+    {
+      "id": "c38",
+      "category": "company",
+      "question": "William Gladstone pushed through the Joint Stock Companies Act of 1844, which allowed companies to be incorporated by simple registration without requiring a special parliamentary charter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": null
+    },
+    {
+      "id": "c39",
+      "category": "company",
+      "question": "Standard Oil's strategy for controlling nearly the entire American oil-refining industry is best described as:",
+      "options": [
+        "Horizontal consolidation, pooling competitors' shares into a single controlling trust",
+        "A worker-owned cooperative model",
+        "Relying purely on chance and market luck",
+        "Immediate nationalization by the U.S. government"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard Oil grew by absorbing and combining competing refiners under a single trust structure, giving it near-total control over refining capacity."
+    },
+    {
+      "id": "c40",
+      "category": "company",
+      "question": "The Sherman Antitrust Act (1890) and Clayton Antitrust Act (1914) were both direct responses to public alarm over:",
+      "options": [
+        "The concentration of economic power in trusts and monopolies",
+        "Excessive foreign investment in the U.S.",
+        "The rise of labor unions",
+        "Declining stock prices"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both acts targeted the growing power of trusts and monopolies that dominated industries like oil, steel, and railroads in this period."
+    },
+    {
+      "id": "c41",
+      "category": "company",
+      "question": "Frederick Winslow Taylor's system of 'scientific management' aimed to increase industrial efficiency chiefly by:",
+      "options": [
+        "Breaking work into standardized, timed tasks studied and optimized by managers",
+        "Giving workers full autonomy over factory schedules",
+        "Abolishing hourly wages entirely",
+        "Relying purely on worker intuition"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taylorism used time-and-motion studies to break jobs into precise, optimized steps, aiming to maximize output per worker."
+    },
+    {
+      "id": "c42",
+      "category": "company",
+      "question": "Henry Ford's moving assembly line, introduced in 1913, transformed manufacturing mainly by:",
+      "options": [
+        "Slashing the time needed to build a car and enabling mass production at lower cost",
+        "Eliminating the need for any factory workers",
+        "Requiring each worker to build a whole car alone",
+        "Increasing car prices to fund luxury features"
+      ],
+      "correctIndex": 0,
+      "explanation": "The moving assembly line dramatically cut assembly time, allowing Ford to mass-produce the Model T at a price ordinary workers could afford."
+    },
+    {
+      "id": "c43",
+      "category": "company",
+      "question": "Which industrialist's vertically integrated steel operations, spanning ore mining to finished steel, became a hallmark of efficiency in this era?",
+      "options": [
+        "Andrew Carnegie",
+        "J.P. Morgan",
+        "Cornelius Vanderbilt",
+        "Henry Ford"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carnegie controlled every stage of steel production, from raw materials to finished product, cutting costs and out-competing rivals."
+    },
+    {
+      "id": "c44",
+      "category": "company",
+      "question": "By the late 19th century, a small number of massive trusts and holding companies had come to dominate huge sectors of the American economy, provoking a strong political backlash.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "The concentration of economic power in trusts like Standard Oil and U.S. Steel fueled the Progressive-era push for antitrust regulation."
+    },
+    {
+      "id": "c45",
+      "category": "company",
+      "question": "'Muckraking' journalists like Ida Tarbell played a significant role in exposing the practices of trusts such as Standard Oil, fueling public support for antitrust action.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tarbell's investigative journalism on Standard Oil's business practices helped galvanize public and political support for breaking up trusts."
+    },
+    {
+      "id": "c46",
+      "category": "company",
+      "question": "Unlike large American corporations of the same era, many British family firms in the late 19th and early 20th centuries were criticized for:",
+      "options": [
+        "Being slow to professionalize management and adopt modern corporate structures",
+        "Growing too quickly and out-competing American rivals",
+        "Refusing to ever use limited liability",
+        "Operating exclusively as state-owned enterprises"
+      ],
+      "correctIndex": 0,
+      "explanation": "British family firms were often seen as more conservative and slower to adopt professional management and large-scale corporate structures than their American counterparts."
+    },
+    {
+      "id": "c47",
+      "category": "company",
+      "question": "In pre-war Germany, large industrial combines often developed close, long-term relationships with which type of institution to finance their growth?",
+      "options": [
+        "Universal banks that combined commercial and investment banking",
+        "Foreign sovereign wealth funds",
+        "Independent venture capital firms",
+        "Religious charitable trusts"
+      ],
+      "correctIndex": 0,
+      "explanation": "German 'universal banks' provided both short-term credit and long-term equity financing, forging close, durable ties with major industrial combines."
+    },
+    {
+      "id": "c48",
+      "category": "company",
+      "question": "Japan's 'zaibatsu' were large industrial and financial conglomerates typically organized around:",
+      "options": [
+        "A family-controlled holding company with an affiliated bank and diverse operating businesses",
+        "A single government ministry with no private ownership",
+        "Independent worker cooperatives with no central control",
+        "Foreign multinational parent companies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zaibatsu like Mitsubishi and Mitsui combined family ownership, an in-house bank, and diversified industrial operations under one coordinated group."
+    },
+    {
+      "id": "c49",
+      "category": "company",
+      "question": "Following World War II, which country's large industrial groups were broken up by occupying authorities, only to re-form in modified networks known as keiretsu?",
+      "options": [
+        "Japan",
+        "Germany",
+        "Britain",
+        "France"
+      ],
+      "correctIndex": 0,
+      "explanation": "U.S. occupation authorities dissolved Japan's prewar zaibatsu, but similar cross-shareholding networks re-emerged afterward as keiretsu."
+    },
+    {
+      "id": "c50",
+      "category": "company",
+      "question": "Compared to the United States, corporate structures in Germany and Japan in this era relied more heavily on close bank-industry relationships and cross-shareholdings.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "German universal banks and Japanese zaibatsu/keiretsu both featured much tighter, longer-term bank-industry ties than the more arm's-length American model."
+    },
+    {
+      "id": "c51",
+      "category": "company",
+      "question": "British, German, and Japanese big businesses in this period converged on an identical corporate model, with no meaningful national differences.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each country developed a distinct model: British family capitalism, German bank-centered universal banking ties, and Japanese zaibatsu/keiretsu group structures."
+    },
+    {
+      "id": "c52",
+      "category": "company",
+      "question": "The rise of the 'multidivisional' (M-form) corporate structure, pioneered at General Motors, is most closely associated with:",
+      "options": [
+        "Alfred Sloan",
+        "Andrew Carnegie",
+        "Cornelius Vanderbilt",
+        "J.P. Morgan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alfred Sloan restructured GM into semi-autonomous divisions under central financial oversight, a model widely copied across American industry."
+    },
+    {
+      "id": "c53",
+      "category": "company",
+      "question": "Business historian Alfred Chandler described the shift toward large managerial hierarchies coordinating economic activity, rather than relying purely on market transactions, as the rise of:",
+      "options": [
+        "The 'visible hand' of professional management",
+        "The 'invisible hand' of Adam Smith",
+        "The 'dead hand' of state planning",
+        "The 'silent hand' of shareholders"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chandler's 'visible hand' thesis argued that professional managers, not market forces alone, increasingly coordinated production and distribution in large firms."
+    },
+    {
+      "id": "c54",
+      "category": "company",
+      "question": "During the mid-20th century, the archetypal loyal, long-tenured corporate employee dedicated to a single large firm was often nicknamed the:",
+      "options": [
+        "'Organization man' or 'company man'",
+        "'Robber baron'",
+        "'Captain of industry'",
+        "'Free agent'"
+      ],
+      "correctIndex": 0,
+      "explanation": "The term captured the culture of stable, lifelong employment and conformity associated with large mid-century corporations."
+    },
+    {
+      "id": "c55",
+      "category": "company",
+      "question": "In the multidivisional structure, a company's central office typically focused on overall strategy and capital allocation, while each division managed its own:",
+      "options": [
+        "Day-to-day operations and product line",
+        "National foreign policy",
+        "Central bank interest rates",
+        "National elections"
+      ],
+      "correctIndex": 0,
+      "explanation": "The M-form let top management focus on strategy and resource allocation while operating divisions handled their own products and daily operations."
+    },
+    {
+      "id": "c56",
+      "category": "company",
+      "question": "The managerial revolution of the mid-20th century saw ownership (shareholders) and control (professional managers) become increasingly separated in large corporations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "As firms grew and share ownership dispersed, day-to-day control shifted decisively to salaried professional managers rather than owner-founders."
+    },
+    {
+      "id": "c57",
+      "category": "company",
+      "question": "During this era, many large American corporations expanded into unrelated industries, forming sprawling conglomerates.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mid-20th century saw a wave of conglomerate-building, with firms diversifying into unrelated businesses under one corporate umbrella."
+    },
+    {
+      "id": "c58",
+      "category": "company",
+      "question": "The wave of hostile takeovers and leveraged buyouts in the 1980s, often financed by high-yield 'junk bonds,' was largely justified by proponents as a way to:",
+      "options": [
+        "Discipline underperforming management and unlock shareholder value",
+        "Guarantee lifetime employment for all workers",
+        "Eliminate the stock market entirely",
+        "Return companies to state ownership"
+      ],
+      "correctIndex": 0,
+      "explanation": "Corporate raiders argued that takeovers forced inefficient or complacent management to focus on maximizing shareholder returns."
+    },
+    {
+      "id": "c59",
+      "category": "company",
+      "question": "Economist Milton Friedman's famous 1970 argument was that a corporation's primary social responsibility is to:",
+      "options": [
+        "Increase its profits within the rules of the game",
+        "Maximize employee headcount",
+        "Prioritize environmental goals above all else",
+        "Serve government economic planning targets"
+      ],
+      "correctIndex": 0,
+      "explanation": "Friedman argued that a company's main social responsibility is to increase profits for shareholders while operating within the law and ethical norms."
+    },
+    {
+      "id": "c60",
+      "category": "company",
+      "question": "Critics of multinational corporations in the late 20th century frequently focused on issues such as:",
+      "options": [
+        "Sweatshop labor conditions and environmental damage in developing countries",
+        "Excessive government ownership of private firms",
+        "Companies refusing to expand internationally",
+        "A total absence of any consumer brands"
+      ],
+      "correctIndex": 0,
+      "explanation": "The anti-globalization movement of this era criticized multinationals over labor conditions abroad, environmental harm, and outsized political influence."
+    },
+    {
+      "id": "c61",
+      "category": "company",
+      "question": "The collapse of Enron in 2001 became a landmark scandal primarily because it revealed:",
+      "options": [
+        "Widespread use of off-balance-sheet entities to hide debt and inflate reported profits",
+        "A total absence of any accounting rules in the U.S.",
+        "That publicly traded companies were made illegal",
+        "That energy trading itself was banned"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enron used complex off-balance-sheet partnerships to conceal debt and inflate earnings, triggering one of the largest corporate scandals in U.S. history."
+    },
+    {
+      "id": "c62",
+      "category": "company",
+      "question": "Which company, after emerging from an accounting scandal, became one of the most infamous symbols of corporate fraud in the early 2000s alongside Enron?",
+      "options": [
+        "WorldCom",
+        "Ford",
+        "IBM",
+        "Coca-Cola"
+      ],
+      "correctIndex": 0,
+      "explanation": "WorldCom's massive accounting fraud, which inflated profits by billions of dollars, became a defining scandal of the early-2000s corporate governance crisis."
+    },
+    {
+      "id": "c63",
+      "category": "company",
+      "question": "The rise of institutional investors and 'shareholder value' as a dominant corporate goal became especially influential from the 1980s onward.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "From the 1980s, pension funds and other large institutional investors pushed companies to prioritize returns to shareholders above other goals."
+    },
+    {
+      "id": "c64",
+      "category": "company",
+      "question": "The anti-globalization movement of the late 1990s and early 2000s argued that multinational corporations had become too powerful relative to national governments and civil society.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "Anti-globalization activists argued multinationals could outmaneuver national regulators and exert outsized influence on labor and environmental standards."
+    },
+    {
+      "id": "c65",
+      "category": "company",
+      "question": "In their concluding chapter, Micklethwait and Wooldridge predict the company's future will likely involve organizations that are, on average:",
+      "options": [
+        "Smaller, more specialized, and more diverse in form than the giant 20th-century conglomerate",
+        "Uniformly larger and more centralized than ever before",
+        "Entirely replaced by government agencies",
+        "Eliminated in favor of a single global mega-corporation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The authors argue the future favors smaller, more flexible, and more varied organizational forms rather than ever-larger monolithic conglomerates."
+    },
+    {
+      "id": "c66",
+      "category": "company",
+      "question": "The authors push back against the idea of a 'silent takeover' of the world by multinational corporations by arguing that:",
+      "options": [
+        "Nation-states and governments still retain substantial power and regulatory authority over companies",
+        "Corporations have already fully replaced national governments",
+        "Multinational companies no longer exist",
+        "Globalization has completely reversed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Micklethwait and Wooldridge argue that, despite globalization, governments retain significant regulatory and political power over corporations."
+    },
+    {
+      "id": "c67",
+      "category": "company",
+      "question": "The authors suggest that ongoing waves of deregulation and technological change are likely to keep producing:",
+      "options": [
+        "New organizational forms and business models rather than a single fixed corporate template",
+        "A permanent freeze on all new company formation",
+        "The complete disappearance of shareholders",
+        "A return to purely family-owned firms worldwide"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book frames the company as a constantly evolving institution, expecting continued experimentation with new organizational forms rather than a final, fixed model."
+    },
+    {
+      "id": "c68",
+      "category": "company",
+      "question": "Micklethwait and Wooldridge conclude that the company, despite its flaws and periodic scandals, is likely to remain a central institution of modern life for the foreseeable future.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book's closing argument is that, whatever its problems, the company remains a remarkably durable and central institution likely to persist."
+    },
+    {
+      "id": "c69",
+      "category": "company",
+      "question": "The authors argue that better corporate governance reforms are irrelevant, since scandals like Enron cannot be prevented by any structural changes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": "The authors discuss governance reforms as a meaningful (if imperfect) response to scandals like Enron, not as an irrelevant exercise."
+    },
+    {
+      "id": "m45",
+      "category": "money",
+      "question": "The origins of modern actuarially-sound life insurance are often traced to a fund set up in 18th-century Scotland by two ministers to provide for:",
+      "options": [
+        "Widows and orphans of deceased clergy",
+        "Retired sea captains only",
+        "Foreign diplomats",
+        "Bankrupt merchants"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Scottish Ministers' Widows' Fund (1744) is considered an early landmark in actuarially sound insurance, pooling contributions to support clergy families after a minister's death."
+    },
+    {
+      "id": "m46",
+      "category": "money",
+      "question": "Insurance and pension systems work by pooling individual risks so that the cost of a bad outcome, such as death or illness, is spread across:",
+      "options": [
+        "A large group of policyholders",
+        "A single wealthy individual",
+        "No one; risk cannot be spread",
+        "Only the government"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pooling many individual risks together lets an insurer absorb the cost of any one person's bad outcome using premiums collected from the wider group."
+    },
+    {
+      "id": "m47",
+      "category": "money",
+      "question": "A key risk of insurance, where being insured can lead people to take on more risk than they otherwise would, is known as:",
+      "options": [
+        "Moral hazard",
+        "Bond vigilantism",
+        "Chimerica",
+        "The Bubble Act problem"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moral hazard describes how insulation from a risk's full consequences can change behavior, potentially increasing the likelihood or severity of that risk."
+    },
+    {
+      "id": "m48",
+      "category": "money",
+      "question": "Catastrophic events like major hurricanes pose a distinct challenge for insurers mainly because such disasters:",
+      "options": [
+        "Cause many simultaneous large claims that can strain or bankrupt insurers",
+        "Never generate any claims",
+        "Only affect government-owned property",
+        "Are always fully predictable years in advance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike independent individual risks, catastrophic events generate a huge wave of correlated claims all at once, testing insurers' capital reserves."
+    },
+    {
+      "id": "m49",
+      "category": "money",
+      "question": "In discussing pension reform, Ferguson examines Chile's experiment with shifting from a state pension system to mandatory private individual retirement accounts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chile's 1980s pension privatization, replacing a state pay-as-you-go system with individual investment accounts, is used as a case study in alternative approaches to retirement risk."
+    },
+    {
+      "id": "m50",
+      "category": "money",
+      "question": "Modern welfare states, such as national pension and healthcare systems, can be understood as a large-scale, government-run form of risk-pooling insurance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "State pensions and public healthcare systems function similarly to insurance, pooling contributions across the whole population to cover individual misfortune."
+    },
+    {
+      "id": "m51",
+      "category": "money",
+      "question": "In the 1930s, the U.S. government created agencies like the Federal Housing Administration to encourage homeownership mainly by:",
+      "options": [
+        "Insuring and standardizing long-term mortgage loans, making them safer for lenders",
+        "Banning all private mortgage lending",
+        "Setting a single fixed price for every home in America",
+        "Nationalizing all residential real estate"
+      ],
+      "correctIndex": 0,
+      "explanation": "By insuring long-term, standardized mortgages, the FHA reduced lender risk and helped expand affordable homeownership in the United States."
+    },
+    {
+      "id": "m52",
+      "category": "money",
+      "question": "The practice of bundling many individual home loans together and selling them to investors as a single tradable security is known as:",
+      "options": [
+        "Mortgage securitization",
+        "Double-entry bookkeeping",
+        "Persona ficta",
+        "The Bubble Act"
+      ],
+      "correctIndex": 0,
+      "explanation": "Securitization pools many individual mortgages into a single security that can be sold to investors, spreading (and sometimes obscuring) the underlying risk."
+    },
+    {
+      "id": "m53",
+      "category": "money",
+      "question": "The shift from banks holding mortgages themselves to selling them off to be securitized changed lender incentives away from careful long-term risk assessment toward a model often summarized as:",
+      "options": [
+        "'Originate to distribute'",
+        "'Buy and hold forever'",
+        "'No lending at all'",
+        "'State-directed lending only'"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under 'originate to distribute,' lenders profited from issuing and quickly reselling loans, weakening their incentive to carefully assess long-term borrower risk."
+    },
+    {
+      "id": "m54",
+      "category": "money",
+      "question": "The bursting of the U.S. housing bubble in 2007-2008 led directly to a sharp rise in which of the following?",
+      "options": [
+        "Mortgage defaults and home foreclosures",
+        "Guaranteed lifetime low interest rates",
+        "A total ban on future home lending",
+        "Immediate abolition of the Federal Reserve"
+      ],
+      "correctIndex": 0,
+      "explanation": "As home prices fell and many subprime borrowers could no longer refinance or sell profitably, defaults and foreclosures surged."
+    },
+    {
+      "id": "m55",
+      "category": "money",
+      "question": "In illustrating the human impact of the mortgage crisis, Ferguson highlights how subprime lending and foreclosures hit certain American communities, such as Memphis, particularly hard.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ferguson uses on-the-ground examples, including hard-hit American communities, to show how subprime lending and foreclosures disproportionately affected certain neighborhoods."
+    },
+    {
+      "id": "m56",
+      "category": "money",
+      "question": "Rising home prices in the mid-2000s U.S. housing market were driven in part by lenders extending credit to borrowers with weaker credit histories than in the past.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "The expansion of subprime lending to riskier borrowers helped fuel demand and rising prices in the mid-2000s housing market."
+    },
+    {
+      "id": "m57",
+      "category": "money",
+      "question": "After World War II, the Bretton Woods system established which currency as the anchor of the global monetary system, pegged to gold?",
+      "options": [
+        "The U.S. dollar",
+        "The British pound",
+        "The Japanese yen",
+        "The Deutsche mark"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under Bretton Woods, the U.S. dollar was pegged to gold and other major currencies were pegged to the dollar, anchoring the postwar international monetary system."
+    },
+    {
+      "id": "m58",
+      "category": "money",
+      "question": "In 1971, President Nixon ended the direct convertibility of dollars into gold, an action that effectively:",
+      "options": [
+        "Ended the Bretton Woods gold-backed exchange rate system",
+        "Reinstated the gold standard permanently",
+        "Merged the U.S. and Chinese economies",
+        "Created the Confederate cotton bond market"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 'Nixon Shock' of 1971 ended dollar-gold convertibility, effectively dismantling the Bretton Woods system and ushering in floating exchange rates."
+    },
+    {
+      "id": "m59",
+      "category": "money",
+      "question": "Ferguson uses Argentina's repeated sovereign debt crises and defaults as an example of:",
+      "options": [
+        "The economic risks and 'declinism' that can afflict emerging economies dependent on foreign capital",
+        "A country that has never borrowed money internationally",
+        "A model that the U.S. and China should copy exactly",
+        "A nation with no history of financial instability"
+      ],
+      "correctIndex": 0,
+      "explanation": "Argentina's cycles of borrowing, crisis, and default illustrate the risks facing emerging economies heavily reliant on foreign capital and confidence."
+    },
+    {
+      "id": "m60",
+      "category": "money",
+      "question": "In the 'Chimerica' relationship described by Ferguson, China's role is largely characterized by:",
+      "options": [
+        "High savings, export-driven growth, and large purchases of U.S. government debt",
+        "Heavy borrowing from the U.S. Treasury with no savings",
+        "A refusal to trade with Western economies",
+        "Abandoning manufacturing entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "China's high savings and export-led growth model generated large surpluses that were substantially reinvested in U.S. government debt, linking the two economies."
+    },
+    {
+      "id": "m61",
+      "category": "money",
+      "question": "Ferguson argues that the deep economic interdependence between China and the United States ('Chimerica') also carries meaningful long-term risks and imbalances, not just benefits.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ferguson frames Chimerica as a mutually reinforcing but ultimately imbalanced relationship, carrying real risks alongside its benefits for both economies."
+    },
+    {
+      "id": "m62",
+      "category": "money",
+      "question": "The historical rise of the British Empire was entirely disconnected from Britain's financial markets and had no relationship to bond or capital markets.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ferguson argues the opposite: Britain's sophisticated bond and capital markets were central to financing its imperial and military expansion."
+    }
+  ]
+}

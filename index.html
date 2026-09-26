@@ -6,9 +6,9 @@
 <title>History of the Firm — Practice Quiz</title>
 <style>
   :root{
-    --bg:#f6f4ef; --card:#ffffff; --ink:#1f2937; --muted:#6b7280;
-    --accent:#8a2b2b; --accent-dark:#6d2020; --good:#1a7f4b; --bad:#b3261e;
-    --border:#e5e0d6; --chip:#efe9dc;
+    --bg:#212121; --card:#1d3131; --ink:#DAA520; --muted:#DAA520;
+    --accent:#8a2b2b; --accent-dark:#DAA520; --good:#1a7f4b; --bad:#b3261e;
+    --border:#DAA520; --chip:#2F4F4F;
   }
   *{box-sizing:border-box;}
   body{
@@ -29,16 +29,16 @@
   .cat-list{display:flex;flex-direction:column;gap:10px;margin:16px 0 20px;}
   .cat-option{
     display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--border);
-    border-radius:8px;cursor:pointer;background:#fbfaf7;font-family:inherit;font-size:1rem;
+    border-radius:8px;cursor:pointer;background:#33312a;font-family:inherit;font-size:1rem;
   }
   .cat-option input{width:18px;height:18px;}
   .count-row{display:flex;align-items:center;gap:10px;margin:14px 0;}
   .count-row select{font-family:inherit;font-size:1rem;padding:6px 10px;border-radius:6px;border:1px solid var(--border);}
   button.primary{
-    background:var(--accent); color:#fff; border:none; border-radius:8px; padding:12px 22px;
+    background:var(--accent); color:#DAA520; border:none; border-radius:8px; padding:12px 22px;
     font-size:1rem; cursor:pointer; font-family:inherit;
   }
-  button.primary:hover{background:var(--accent-dark);}
+  button.primary:hover{background:var(--accent-dark); color:#8a2b2b;}
   button.secondary{
     background:transparent;color:var(--accent);border:1px solid var(--accent);border-radius:8px;
     padding:10px 18px;font-size:0.95rem;cursor:pointer;font-family:inherit;
@@ -54,7 +54,7 @@
   .options{display:flex;flex-direction:column;gap:10px;}
   .option-btn{
     text-align:left;padding:13px 16px;border:1px solid var(--border);border-radius:8px;
-    background:#fbfaf7;font-family:inherit;font-size:1rem;cursor:pointer;color:var(--ink);
+    background:#33312a;font-family:inherit;font-size:1rem;cursor:pointer;color:var(--ink);
   }
   .option-btn:hover:not(:disabled){border-color:var(--accent);}
   .option-btn.correct{background:#e8f5ec;border-color:var(--good);color:#0f3d24;}
@@ -63,7 +63,9 @@
   .feedback{margin-top:16px;padding:14px 16px;border-radius:8px;font-size:0.95rem;line-height:1.5;}
   .feedback.good{background:#e8f5ec;color:#0f3d24;}
   .feedback.bad{background:#fbe9e7;color:#5e1712;}
-  .nav-row{display:flex;justify-content:flex-end;margin-top:18px;}
+  .nav-row{display:flex;justify-content:flex-end;gap:12px;margin-top:18px;}
+  button.finish{background:transparent;color:var(--accent);border:1px solid var(--accent);border-radius:8px;padding:12px 18px;font-size:0.95rem;cursor:pointer;font-family:inherit;}
+  button.finish:hover:not(:disabled){background:rgba(138,43,43,0.08);}
 
   /* Results */
   .score-big{font-size:2.4rem;font-weight:bold;text-align:center;margin:6px 0;}
@@ -82,8 +84,8 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>History of the Firm — Practice Quiz</h1>
-    <p>Multiple-choice practice covering the course presentation, "The Company," and "The Ascent of Money"</p>
+    <h1>Practice Quiz for Thursday</h1>
+    <p>Multiple-choice practice covering the "The Company" and "The Ascent of Money"</p>
   </header>
 
   <!-- SETUP SCREEN -->
@@ -103,6 +105,7 @@
     <div class="options" id="q-options"></div>
     <div id="q-feedback"></div>
     <div class="nav-row">
+      <button class="primary" id="finish-btn" type="button">Finish</button>
       <button class="primary" id="next-btn" disabled>Next</button>
     </div>
   </div>
@@ -112,18 +115,18 @@
     <div class="score-big" id="final-score"></div>
     <div class="score-sub" id="final-sub"></div>
     <div style="text-align:center;margin-bottom:20px;">
-      <button class="secondary" id="review-toggle">Show answer review</button>
+      <button class="primary" id="review-toggle">Show answer review</button>
       <button class="primary" id="restart-btn">Try again</button>
     </div>
     <div id="review-list" class="hidden"></div>
   </div>
 
-  <footer>Answer key stored separately in <code>answers/questions.json</code>.</footer>
+  <footer>This was made by RBS student, Ralfs Jefimovs 😉 <br><br>© copyright issued 2026 </footer>
 </div>
 
 <script>
 (function(){
-  const state = { all: [], pool: [], idx: 0, score: 0, answers: [] };
+  const state = { all: [], pool: [], idx: 0, score: 0, answers: [], finishedEarly: false };
 
   const setupBody = document.getElementById('setup-body');
   const setupScreen = document.getElementById('setup-screen');
@@ -273,12 +276,27 @@
     }
   });
 
+  document.getElementById('finish-btn').addEventListener('click', () => {
+    state.finishedEarly = true;
+    showResults();
+  });
+
   function showResults(){
     quizScreen.classList.add('hidden');
     resultsScreen.classList.remove('hidden');
-    const pct = Math.round((state.score/state.pool.length)*100);
-    document.getElementById('final-score').textContent = `${state.score} / ${state.pool.length}`;
-    document.getElementById('final-sub').textContent = `${pct}% correct`;
+
+    const answeredCount = state.answers.length;
+    const denominator = Math.max(answeredCount, 1);
+    const pct = answeredCount ? Math.round((state.score / denominator) * 100) : 0;
+
+    if(state.finishedEarly){
+      const remaining = Math.max(state.pool.length - answeredCount, 0);
+      document.getElementById('final-score').textContent = `${state.score} / ${answeredCount || 0}`;
+      document.getElementById('final-sub').textContent = `Finished early — ${pct}% correct${remaining ? `; ${remaining} question${remaining===1?'':'s'} left unanswered.` : ''}`;
+    } else {
+      document.getElementById('final-score').textContent = `${state.score} / ${state.pool.length}`;
+      document.getElementById('final-sub').textContent = `${pct}% correct`;
+    }
 
     const reviewList = document.getElementById('review-list');
     reviewList.innerHTML = state.answers.map(a => `
@@ -300,6 +318,7 @@
   document.getElementById('restart-btn').addEventListener('click', () => {
     resultsScreen.classList.add('hidden');
     setupScreen.classList.remove('hidden');
+    state.finishedEarly = false;
     buildSetupScreen(state.all);
   });
 })();
