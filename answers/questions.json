@@ -11,6 +11,10 @@
     {
       "id": "money",
       "name": "The Ascent of Money (Niall Ferguson)"
+    },
+    {
+      "id": "bill ",
+      "name": "Given Questions by Bill"
     }
   ],
   "questions": [
@@ -1786,6 +1790,351 @@
       ],
       "correctIndex": 1,
       "explanation": "Ferguson argues the opposite: Britain's sophisticated bond and capital markets were central to financing its imperial and military expansion."
-    }
-  ]
+    },
+    {
+      "id": "b1",
+      "category": "bill",
+      "question": "Why are secure property rights considered crucial for capitalist prosperity in developing nations?",
+      "options": [
+        "They provide legal assurance that individuals and businesses can invest and innovate without fear of arbitrary seizure or expropriation.",
+        "They allow governments to seize property at will, which encourages investment.",
+        "They eliminate the need for any legal system or enforcement mechanisms.",
+        "They ensure that all property is owned collectively by the state."
+      ],
+      "correctIndex": 0,
+      "explanation": "Secure property rights provide individuals and businesses with the confidence to invest, innovate, and engage in economic activities without fear of arbitrary seizure or expropriation. This legal assurance encourages long-term planning and capital accumulation, which are essential for sustained economic growth."
+    },
+    {
+      "id":"b2",
+      "category":"bill",
+      "question": "According to Episode 4 of 'The Ascent of Money', what catastrophic event in New Orleans exposed the severe limits of private property insurance?",
+      "options": [
+        "Toba Volcanic Eruption",
+        "Math Midterm exam",
+        "Hurricane Katrina",
+        "The Great Depression"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hurricane Katrina in 2005 devastated New Orleans, revealing the inadequacies of private property insurance in covering widespread damage and losses. The event highlighted the need for more robust risk management and insurance mechanisms to protect against natural disasters."
+    },
+      {
+        "id": "b3",
+        "category": "bill",
+        "question": "Who were the two Scottish clergymen and mathematical pioneers behind the creation of the ministers' widows' fund?",
+        "options": [
+          "Adam Smith and David Hume",
+          "Robert Wallace and Alexander Webster",
+          "John Law and Isaac Newton",
+          "Thomas Malthus and James Mill"
+        ],
+        "correctIndex": 1,
+        "explanation": "Robert Wallace and Alexander Webster were Scottish clergymen and mathematical pioneers who used probability and actuarial methods to protect widows and orphans of Church of Scotland ministers."
+      },
+      {
+        "id": "b4",
+        "category": "bill",
+        "question": "In Episode 4, 'Risky Business', Niall Ferguson examines why free markets often fail to provide adequate private property protection against major natural catastrophes like Hurricane Katrina.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctIndex": 0,
+        "explanation": "The episode examines how markets and insurance often underprovide protection against major cataclysmic risks."
+      },
+      {
+        "id": "b5",
+        "category": "bill",
+        "question": "Robert Wallace and Alexander Webster utilized probability and actuarial mathematics to protect vulnerable widows and orphans of Church of Scotland ministers.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctIndex": 0,
+        "explanation": "Their work on life expectancy and risk pooling became a foundational example of actuarial science applied to social insurance."
+      },
+      {
+        "id": "b6",
+        "category": "bill",
+        "question": "Milton Friedman's free-market economic philosophies heavily influenced the radical privatization of Chile's pension system under José Piñera.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctIndex": 0,
+        "explanation": "Chile's pension privatization in the 1980s was strongly influenced by Friedman-style market reforms."
+      },
+      {
+        "id": "b7",
+        "category": "bill",
+        "question": "Richard F. ('Dickie') Scruggs was an attorney known for defending large insurance conglomerates against homeowners after Hurricane Katrina.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctIndex": 1,
+        "explanation": "Scruggs was known for representing homeowners and victims against insurers, not for defending insurers."
+      },
+      {
+        "id": "b8",
+        "category": "bill",
+        "question": "Actuarial science relies entirely on arbitrary guesswork rather than statistical probability and historical data.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctIndex": 1,
+        "explanation": "Actuarial work is grounded in data, probability, and historical loss patterns."
+      },
+      {
+        "id": "b9",
+        "category": "bill",
+        "question": "Japanese zaibatsu were family-controlled industrial conglomerates centered around a main bank and trading house.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctIndex": 0,
+        "explanation": "Zaibatsu were often family-controlled groups linking finance, trading, and industrial production."
+      },
+      {
+        "id": "b10",
+        "category": "bill",
+        "question": "Alfred Sloan's multidivisional structure (M-form) at General Motors combined decentralized operational divisions with centralized corporate strategic control.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctIndex": 0,
+        "explanation": "Sloan's M-form separated operational autonomy from centralized strategic oversight and capital allocation."
+      },
+      {
+        "id": "b11",
+        "category": "bill",
+        "question": "The conglomerate wave of the 1960s was highly successful long-term because corporate headquarters possessed deep operational expertise in every industry acquired.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctIndex": 1,
+        "explanation": "Many conglomerates failed because headquarters lacked real operational knowledge in their acquired businesses."
+      },
+      {
+        "id": "b12",
+        "category": "bill",
+        "question": "Milton Friedman argued that the primary social responsibility of a business is to increase its profits for shareholders.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctIndex": 0,
+        "explanation": "Friedman's shareholder-value thesis argued that a corporation's main responsibility is to maximize profits within the law."
+      },
+      {
+        "id": "b13",
+        "category": "bill",
+        "question": "Michael Milken popularized high-yield 'junk bonds' at Drexel Burnham Lambert, providing corporate raiders with financial leverage to target large public corporations.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctIndex": 0,
+        "explanation": "Milken's junk-bond financing enabled hostile takeovers and leveraged buyouts in the 1980s."
+      },
+      {
+        "id": "b14",
+        "category": "bill",
+        "question": "Which industry pioneered modern corporate organizational charts and cost-accounting metrics in 19th-century America?",
+        "options": [
+          "Textiles",
+          "Shipping",
+          "Mining",
+          "Railroads"
+        ],
+        "correctIndex": 3,
+        "explanation": "Railroad companies required large-scale coordination, internal accounting, and formal management structures."
+      },
+      {
+        "id": "b15",
+        "category": "bill",
+        "question": "Which legal mechanism did Standard Oil initially use to control refineries across multiple states before state incorporation laws were modernized?",
+        "options": [
+          "A trust arrangement controlled by trustees",
+          "A municipal charter",
+          "A government monopoly grant",
+          "A partnership with labor unions"
+        ],
+        "correctIndex": 0,
+        "explanation": "Standard Oil used a trust structure to centralize control and coordinate multiple refineries before modern corporate law made holding-company structures easier."
+      },
+      {
+        "id": "b16",
+        "category": "bill",
+        "question": "According to business historian Alfred Chandler, a firm achieved lasting market dominance in late 19th-century America by making a simultaneous 'three-pronged investment' in:",
+        "options": [
+          "Land, labor, and government subsidies",
+          "Plant, machinery, and managerial organization",
+          "Advertising, branding, and retail outlets",
+          "Raw materials, taxes, and legal counsel"
+        ],
+        "correctIndex": 1,
+        "explanation": "Chandler emphasized the growth of integrated production, distribution, and administrative coordination as the basis of large-scale corporate efficiency."
+      },
+      {
+        "id": "b17",
+        "category": "bill",
+        "question": "In 1901, J. Pierpont Morgan orchestrated the creation of America's first billion-dollar corporation by consolidating steel companies into:",
+        "options": [
+          "General Motors",
+          "American Steelworks",
+          "U.S. Steel",
+          "Standard Steel"
+        ],
+        "correctIndex": 2,
+        "explanation": "Morgan consolidated several major steel firms into U.S. Steel, creating the first billion-dollar corporation."
+      },
+      {
+        "id": "b18",
+        "category": "bill",
+        "question": "Gustavus Swift revolutionized the American meatpacking industry by investing heavily in which technology?",
+        "options": [
+          "Refrigerated rail cars",
+          "Assembly lines",
+          "The telegraph",
+          "Electric power plants"
+        ],
+        "correctIndex": 0,
+        "explanation": "Swift's refrigerated rail network decentralized slaughter and enabled national distribution of meat."
+      },
+      {
+        "id": "b19",
+        "category": "bill",
+        "question": "What primary cultural and structural characteristic hindered 19th-century British firms from building large managerial hierarchies?",
+        "options": [
+          "A legal ban on corporate managers",
+          "A lack of labor markets",
+          "An absence of industrial production",
+          "A preference for family ownership and a conservative, small-scale business culture"
+        ],
+        "correctIndex": 3,
+        "explanation": "British firms often remained more family-centered and less professionally managed than their American counterparts."
+      },
+      {
+        "id": "b20",
+        "category": "bill",
+        "question": "Which major German chemical enterprise formed in the early 20th century by combining giant chemical producers into a dominant national cartel?",
+        "options": [
+          "IG Farben",
+          "Krupp",
+          "Siemens",
+          "BASF"
+        ],
+        "correctIndex": 0,
+        "explanation": "IG Farben united major German chemical firms into a dominant cartel and industrial combine."
+      },
+      {
+        "id": "b21",
+        "category": "bill",
+        "question": "In Germany's model of 'cooperative capitalism,' which financial institutions played a central role in providing long-term equity and capital guidance?",
+        "options": [
+          "Mutual funds",
+          "Universal banks",
+          "Credit unions",
+          "State ministries"
+        ],
+        "correctIndex": 1,
+        "explanation": "German universal banks supplied both debt and long-term equity financing and often guided industrial strategy."
+      },
+      {
+        "id": "b22",
+        "category": "bill",
+        "question": "Who is widely celebrated as the 'father of Japanese capitalism' for establishing hundreds of joint-stock firms during the Meiji era?",
+        "options": [
+          "Iwasaki Yataro",
+          "Mitsui Hachiroemon",
+          "Shibusawa Eiichi",
+          "Taro Aso"
+        ],
+        "correctIndex": 2,
+        "explanation": "Shibusawa Eiichi was central to the development of modern Japanese business and finance."
+      },
+      {
+        "id": "b23",
+        "category": "bill",
+        "question": "Which Japanese industrial group started as a maritime shipping company founded by Iwasaki Yataro before expanding into heavy manufacturing and finance?",
+        "options": [
+
+          "Sumitomo",
+          "Mitsui",
+          "Sony",
+          "Mitsubishi"
+        ],
+        "correctIndex": 3,
+        "explanation": "Mitsubishi began as a shipping company and later became a major industrial and financial conglomerate."
+      },
+      {
+        "id": "b24",
+        "category": "bill",
+        "question": "As CEO of General Electric in the 1980s and 1990s, Jack Welch declared that every GE division had to be:",
+        "options": [
+          "Either first or second in its industry",
+          "Totally unrelated to the others",
+          "Government-regulated and unionized",
+          "Funded only by retained earnings"
+        ],
+        "correctIndex": 0,
+        "explanation": "Welch's 'fix, sell, or close' approach required divisions to be competitive leaders or exit the market."
+      },
+      {
+        "id": "b25",
+        "category": "bill",
+        "question": "How did financial economists like Michael Jensen justify the use of executive stock options in the 1980s and 1990s?",
+        "options": [
+          "By aligning managers' incentives with shareholder wealth maximization",
+          "By guaranteeing lower labor costs forever",
+          "By eliminating corporate governance rules",
+          "By replacing all debt financing"
+        ],
+        "correctIndex": 0,
+        "explanation": "Stock options were defended as a way to make executive decisions track shareholder interests."
+      },
+      {
+        "id": "b26",
+        "category": "bill",
+        "question": "Silicon Valley tech companies in the late 20th century differed structurally from traditional mid-century industrial firms by adopting:",
+        "options": [
+          "Strictly centralized command-and-control hierarchies",
+          "More venture-capital-backed, project-based, and networked startup structures",
+          "State-owned production models",
+          "Family-run merchant partnerships"
+        ],
+        "correctIndex": 1,
+        "explanation": "The technology sector relied more on venture capital, stock-based incentives, and decentralized talent networks."
+      },
+      {
+        "id": "b27",
+        "category": "bill",
+        "question": "What major criticism emerged regarding the Shareholder Value Revolution in the late 1990s and early 2000s?",
+        "options": [
+          "It encouraged short-termism, financial engineering, and insufficient attention to long-term investment and workers",
+          "It reduced competition and increased monopoly power everywhere",
+          "It eliminated all corporate taxes",
+          "It caused every firm to become a labor union"
+        ],
+        "correctIndex": 0,
+        "explanation": "Critics argued the shareholder-value approach produced excessive short-term pressure and weakened long-term strategic investment."
+      },
+      {
+        "id": "b28",
+        "category": "bill",
+        "question": "In corporate strategy, what does the term 'core competency' refer to as popularized during the 1990s restructuring era?",
+        "options": [
+          "The amount of debt a company can legally carry",
+          "The number of factories a firm owns abroad",
+           "A firm's unique set of skills and capabilities that create strategic advantage",
+          "The personal wealth of the CEO"
+        ],
+        "correctIndex": 2,
+        "explanation": "Core competency refers to distinctive capabilities that allow a firm to compete and innovate better than rivals."
+      }
+    ]
 }
